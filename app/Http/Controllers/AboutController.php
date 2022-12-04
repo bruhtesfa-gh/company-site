@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Welcome;
+use App\Models\About;
 use Illuminate\Http\Request;
 
-class WelcomeController extends Controller
+class AboutController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class WelcomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('about');
     }
 
     /**
@@ -41,10 +41,10 @@ class WelcomeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Welcome  $welcome
+     * @param  \App\Models\About  $about
      * @return \Illuminate\Http\Response
      */
-    public function show(Welcome $welcome)
+    public function show(About $about)
     {
         //
     }
@@ -52,10 +52,10 @@ class WelcomeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Welcome  $welcome
+     * @param  \App\Models\About  $about
      * @return \Illuminate\Http\Response
      */
-    public function edit(Welcome $welcome)
+    public function edit(About $about)
     {
         //
     }
@@ -64,10 +64,10 @@ class WelcomeController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Welcome  $welcome
+     * @param  \App\Models\About  $about
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Welcome $welcome)
+    public function update(Request $request, About $about)
     {
         //
     }
@@ -75,10 +75,10 @@ class WelcomeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Welcome  $welcome
+     * @param  \App\Models\About  $about
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Welcome $welcome)
+    public function destroy(About $about)
     {
         //
     }
