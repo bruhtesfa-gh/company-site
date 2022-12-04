@@ -1,4 +1,27 @@
+@extends('layouts.app')
 @section('main')
+<!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="container position-relative">
+        <div class="row gy-5 h-full d-flex align-content-center" data-aos="fade-in">
+            <div class="col-lg-6 d-flex flex-column align-items-right justify-content-center text-left caption">
+                <h2>Software</h2>
+                <h3 class="heading-secondy">Development</h3>
+                <p>Our business is helping you grow your business. We offer Best Web & Applications Solutions, Project
+                    Management, Software Update, Google Cloud, SEO optmization, Social Media Services...</p>
+                <div class="d-flex">
+                    <a href="#about" class="btn-get-started">Get Started</a>
+                    <a href="https://www.youtube.com/watch?v=5KygwcZ545U&ab_channel=JonathanMickelson"
+                        class="glightbox btn-watch-video d-flex align-items-center"><i
+                            class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex flex-column align-items-right justify-content-center"><img
+                    src="assets/images/hero.png" class="img-fluid rounded-4 mb-4 mt-m70" alt=""></div>
+        </div>
+    </div>
+</section>
+<!-- End Hero Section -->
 <!-- Start Services Section -->
 <div id="services" class="the-main-service text-center section">
     <div class="container">

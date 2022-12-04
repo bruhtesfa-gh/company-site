@@ -41,10 +41,10 @@
 
 <body class="">
     <div id="preloader"></div>
-    @include('header')
+    @include('layouts.header')
     @yield('main')
-    @include('footer')
-    @include('footer-bottom')
+    @include('layouts.footer')
+    @include('layouts.footer-bottom')
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
     <!-- Vendor JS Files -->
