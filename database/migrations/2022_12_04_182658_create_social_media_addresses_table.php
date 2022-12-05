@@ -15,6 +15,12 @@ class CreateSocialMediaAddressesTable extends Migration
     {
         Schema::create('social_media_addresses', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('team_id')->references('id')
+                ->on('teams')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+            $table->string('media');
+            $table->string('url');
             $table->timestamps();
         });
     }

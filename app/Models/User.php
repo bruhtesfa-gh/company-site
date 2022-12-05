@@ -41,4 +41,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function team()
+    {
+        return $this->hasOne(Team::class, 'user_id');
+    }
+
+    public function socialMediaAddresses()
+    {
+        return $this->hasMany(SocialMediaAddress::class, "team_id");
+    }
 }
