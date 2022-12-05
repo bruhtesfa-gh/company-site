@@ -102,17 +102,35 @@
                             </ul>
                         </div>
                         <div class="testimonial-item">
-                            <p>
-                                <i class="bi bi-quote quote-icon-left"></i>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                legam anim culpa.
-                                <i class="bi bi-quote quote-icon-right"></i>
-                            </p>
-                            <div>
-                                <img src="assets/images/testimonials/testimonial-1.jpg" class="testimonial-img" alt="">
-                                <h3>Jhone Wilsson</h3>
-                                <h4>Graphic Designer</h4>
+                            <div class="col mb-5">
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
+                                    legam anim culpa.
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                                <div>
+                                    <img src="assets/images/testimonials/testimonial-1.jpg" class="testimonial-img"
+                                        alt="">
+                                    <h3>Jhone Wilsson</h3>
+                                    <h4>Graphic Designer</h4>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
+                                    legam anim culpa.
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                                <div>
+                                    <img src="assets/images/testimonials/testimonial-1.jpg" class="testimonial-img"
+                                        alt="">
+                                    <h3>Jhone Wilsson</h3>
+                                    <h4>Graphic Designer</h4>
+                                </div>
                             </div>
                         </div>
                     </div>

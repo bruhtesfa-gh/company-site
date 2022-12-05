@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Project;
+use App\Models\SocialMediaAddress;
 use Illuminate\Http\Request;
 
-class ProjectController extends Controller
+class SocialMediaAddressController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return view('project-details');
+        //
     }
 
     /**
@@ -41,21 +41,21 @@ class ProjectController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Project  $project
+     * @param  \App\Models\SocialMediaAddress  $socialMediaAddress
      * @return \Illuminate\Http\Response
      */
-    public function show(Project $project)
+    public function show(SocialMediaAddress $socialMediaAddress)
     {
-        return view('project-details');
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Project  $project
+     * @param  \App\Models\SocialMediaAddress  $socialMediaAddress
      * @return \Illuminate\Http\Response
      */
-    public function edit(Project $project)
+    public function edit(SocialMediaAddress $socialMediaAddress)
     {
         //
     }
@@ -64,10 +64,10 @@ class ProjectController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Project  $project
+     * @param  \App\Models\SocialMediaAddress  $socialMediaAddress
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Project $project)
+    public function update(Request $request, SocialMediaAddress $socialMediaAddress)
     {
         //
     }
@@ -75,10 +75,10 @@ class ProjectController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Project  $project
+     * @param  \App\Models\SocialMediaAddress  $socialMediaAddress
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Project $project)
+    public function destroy(SocialMediaAddress $socialMediaAddress)
     {
         //
     }
