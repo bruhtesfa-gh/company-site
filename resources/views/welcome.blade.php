@@ -31,9 +31,12 @@
             <div class="col-md-4 col-sm-12 equal-height">
                 <div class="item">
                     <i class="fa fa-pencil"></i>
-                    <h4>Project creation</h4>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <h4>Web Design</h4>
+                    <p align="justify">
+                In today's competitive internet market, website design  services are crucial.
+                 Fejlesztő focuses on  The visual first impression your website produces will
+                 have a significant impact on a pov client's decision to click away or
+                 continue reading. 
                     </p>
                 </div>
             </div>
@@ -44,8 +47,11 @@
                 <div class="item">
                     <i class="fa  fa-pie-chart"></i>
                     <h4>Software Development</h4>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p align="justify" >
+                    Fejlesztő  specializes in developing extensible software for a multitude of industries. 
+                    We provide the technological expertise and an established development methodology to deliver 
+                    custom web application projects. Our clients gain market share,increase efficiency, enhance 
+                    productivity, reduce operating costs, and boost customer satisfaction.
                     </p>
                 </div>
             </div>
