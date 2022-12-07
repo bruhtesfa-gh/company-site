@@ -16,7 +16,8 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return view('project');
+        $projects = Project::all();
+        return view('project', compact('projects'));
     }
 
     /**
@@ -40,7 +41,7 @@ class ProjectController extends Controller
     public function store(Request $request)
     {
         if ($request->hasFile('image1') && $request->hasFile('image2') && $request->hasFile('image3') && $request->hasFile('image4')) {
-            if ($request->file('image')->isValid()) {
+            if ($request->file('image1')->isValid() && $request->file('image2')->isValid() &&  $request->file('image3')->isValid() && $request->file('image4')->isValid()) {
                 $validated = $request->validate([
                     "image1" => 'required|mimes:jpeg,png,jpg|max:10094',
                     "image2" => 'required|mimes:jpeg,png,jpg|max:10094',
@@ -53,11 +54,12 @@ class ProjectController extends Controller
                     "discription" => 'required',
                     'link' => 'required|url',
                 ]);
-                $path1 = $request->image->store('images');
-                $path2 = $request->image->store('images');
-                $path3 = $request->image->store('images');
-                $path4 = $request->image->store('images');
 
+                //dd(Carbon::createFromFormat('mm/dd/yyyy', $validated['end_date']));
+                $path1 = $request->image1->store('images');
+                $path2 = $request->image2->store('images');
+                $path3 = $request->image3->store('images');
+                $path4 = $request->image4->store('images');
                 $project = \App\Models\Project::create([
                     "image1" => $path1,
                     "image2" => $path2,
@@ -65,9 +67,8 @@ class ProjectController extends Controller
                     "image4" => $path4,
                     'title' => $validated['title'],
                     'category' => $validated['category'],
-                    'title' => $validated['title'],
                     'client' => $validated['client'],
-                    'end_date' => Carbon::createFromFormat('m/d/Y', $validated['end_date']),
+                    'end_date' => $validated['end_date'],
                     'link' => $validated['link'],
                     "discription" => $validated['discription'],
                 ]);

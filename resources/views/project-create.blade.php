@@ -8,8 +8,8 @@
             <div class="container position-relative">
                 <div class="contact-form-box contact-form contact-form-3">
                     <div class="form-container-box">
-                        <form class="contact-form form" id="my-form" method="POST" action="{{ route('blogs.store') }}"
-                            enctype="multipart/form-data">
+                        <form class="contact-form form" id="my-form" method="POST"
+                            action="{{ route('projects.store') }}" enctype="multipart/form-data">
                             @csrf
                             <div class="controls">
                                 <div class="row">
