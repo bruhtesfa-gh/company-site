@@ -8,52 +8,44 @@
             <div class="container position-relative">
                 <div class="contact-form-box contact-form contact-form-3">
                     <div class="form-container-box">
-                        <form class="contact-form form" id="ajax-contact" method="post"
-                            action="{{ route('send-message') }}">
+                        <form class="contact-form form" id="my-form" method="POST" action="{{ route('blogs.store') }}"
+                            enctype="multipart/form-data">
                             @csrf
                             <div class="controls">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group form-input-box">
-                                            <input type="text" class="form-control" id="name" name="name"
-                                                placeholder="Name*" required="required" data-error="Name is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group form-input-box">
-                                            <input type="email" class="form-control" id="email" name="email"
-                                                placeholder="Email*" required="required"
-                                                data-error="Valid email is required.">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-input-box mb-2">
+                                            <input type="text" class="form-control" id="title" name="title"
+                                                placeholder="Title*" required="required"
+                                                data-error="title is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="form-group form-input-box">
-                                            <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                                required="required">
+                                        <div class="form-group form-input-box mb-2">
+                                            <input type="text" class="form-control" id="link" name="link"
+                                                placeholder="Link*" required="required" data-error="link is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group form-input-box mb-2">
+                                            <input type="file" class="form-control" id="image" name="image"
+                                                placeholder="Image*" required="required"
+                                                data-error="image is required.">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <div class="form-group form-input-box">
-                                            <textarea class="form-control" id="message" name="message" rows="7"
-                                                placeholder="Write Your Message*" required="required"
-                                                data-error="Please, leave us a message."></textarea>
+                                        <div class="form-group form-input-box mb-2">
+                                            <textarea class="form-control" id="discription" name="discription" rows="7"
+                                                placeholder="Write Your Discription*" required="required"
+                                                data-error="Please, leave us a discription."></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <button type="submit" data-text="Send Message">Send Message</button>
-                                    </div>
-                                    <div class="messages">
-                                        <div class="alert alert alert-success alert-dismissable alert-dismissable hidden"
-                                            id="msgSubmit"><button type="button" class="close" data-dismiss="alert"
-                                                aria-hidden="true">&times;</button> Thank
-                                            You! your message has been sent. </div>
-                                        <div class="alert alert alert-danger alert-dismissable alert-dismissable hidden"
-                                            id="msgSubmitError"><button type="button" class="close" data-dismiss="alert"
-                                                aria-hidden="true">&times;</button> Sorry!
-                                            your message is no received please try again. </div>
+                                        <button type="submit" data-text="Submit">Submit</button>
                                     </div>
                                 </div>
                             </div>

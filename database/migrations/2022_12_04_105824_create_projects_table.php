@@ -23,7 +23,7 @@ class CreateProjectsTable extends Migration
             $table->string("category");
             $table->string("client");
             $table->timestamp("end_date");
-            $table->string("url")->nullable();
+            $table->string("link")->nullable();
             $table->mediumText("discription");
             $table->timestamps();
         });
