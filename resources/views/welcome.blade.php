@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.main')
 @section('main')
 <!-- Hero Section -->
 <section id="hero" class="hero">
@@ -7,8 +7,9 @@
             <div class="col-lg-6 d-flex flex-column align-items-right justify-content-center text-left caption">
                 <h2>FEJLESZTŐ</h2>
                 <h3 class="heading-secondy">Technology</h3>
-                <p>Our company exists to assist you in growing your company. We provide the best web and application solutions, project management,
-                     software updates, Google Cloud, SEO optimization, and social media marketing services.</p>
+                <p>Our company exists to assist you in growing your company. We provide the best web and application
+                    solutions, project management,
+                    software updates, Google Cloud, SEO optimization, and social media marketing services.</p>
                 <div class="d-flex">
                     <a href="#about" class="btn-get-started">Get Started</a>
                     <a href="https://www.youtube.com/watch?v=5KygwcZ545U&ab_channel=JonathanMickelson"
