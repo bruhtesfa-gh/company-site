@@ -5,10 +5,10 @@
     <div class="container position-relative">
         <div class="row gy-5 h-full d-flex align-content-center" data-aos="fade-in">
             <div class="col-lg-6 d-flex flex-column align-items-right justify-content-center text-left caption">
-                <h2>Software</h2>
-                <h3 class="heading-secondy">Development</h3>
-                <p>Our business is helping you grow your business. We offer Best Web & Applications Solutions, Project
-                    Management, Software Update, Google Cloud, SEO optmization, Social Media Services...</p>
+                <h2>FEJLESZTŐ</h2>
+                <h3 class="heading-secondy">Technology</h3>
+                <p>Our company exists to assist you in growing your company. We provide the best web and application solutions, project management,
+                     software updates, Google Cloud, SEO optimization, and social media marketing services.</p>
                 <div class="d-flex">
                     <a href="#about" class="btn-get-started">Get Started</a>
                     <a href="https://www.youtube.com/watch?v=5KygwcZ545U&ab_channel=JonathanMickelson"
