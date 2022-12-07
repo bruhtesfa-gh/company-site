@@ -1,8 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.main')
 
 @section('main')
 <main id="main">
-
     <!--  - - - - - - - -  Breadcrumbs  - - - - - - - -  -->
     <div class="breadcrumbs">
         <div class="page-header d-flex">
