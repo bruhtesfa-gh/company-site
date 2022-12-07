@@ -10,8 +10,8 @@
     <meta content="" name="ZRTHEMES">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicons -->
-    <link href="assets/images/favicon.png" rel="icon">
-    <link href="assets/images/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href={{ asset("assets/images/favicon.png")}} rel="icon">
+    <link href={{ asset("assets/images/apple-touch-icon.png")}} rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -29,14 +29,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/stylesheets/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href={{ asset("assets/stylesheets/font-awesome.min.css")}} rel="stylesheet">
+    <link href={{ asset("assets/vendor/bootstrap/css/bootstrap.min.css")}} rel="stylesheet">
+    <link href={{ asset("assets/vendor/bootstrap-icons/bootstrap-icons.css")}} rel="stylesheet">
+    <link href={{ asset("assets/vendor/aos/aos.css")}} rel="stylesheet">
+    <link href={{ asset("assets/vendor/glightbox/css/glightbox.min.css")}} rel="stylesheet">
+    <link href={{ asset("assets/vendor/swiper/swiper-bundle.min.css")}} rel="stylesheet">
     <!-- Main CSS File -->
-    <link href="assets/stylesheets/styles.css" rel="stylesheet">
+    <link href={{ asset( "assets/stylesheets/styles.css")}} rel="stylesheet">
 </head>
 
 <body class="">
@@ -48,17 +48,17 @@
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
     <!-- Vendor JS Files -->
-    <script src="assets/javascripts/jquery.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/javascripts/plugins.js"></script>
-    <script src="assets/javascripts/validator.min.js"></script>
-    <script src="assets/javascripts/contactform.js"></script>
+    <script src={{ asset("assets/javascripts/jquery.min.js") }}></script>
+    <script src={{ asset("assets/vendor/glightbox/js/glightbox.min.js") }}></script>
+    <script src={{ asset("assets/vendor/bootstrap/js/bootstrap.bundle.min.js") }}></script>
+    <script src={{ asset("assets/vendor/aos/aos.js") }}></script>
+    <script src={{ asset("assets/vendor/swiper/swiper-bundle.min.js") }}></script>
+    <script src={{ asset("assets/javascripts/plugins.js") }}></script>
+    <script src={{ asset("assets/javascripts/validator.min.js") }}></script>
+    <script src={{ asset("assets/javascripts/contactform.js") }}></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/javascripts/main.js"></script>
+    <script src={{ asset("assets/javascripts/main.js") }}></script>
 </body>
 
 </html>
