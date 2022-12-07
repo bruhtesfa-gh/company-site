@@ -38,7 +38,8 @@
                         <div class="contact-form-box contact-form contact-form-3">
                             <div class="form-container-box">
                                 <form class="contact-form form" id="ajax-contact" method="post"
-                                    action="assets/phpscripts/contact.php">
+                                    action="{{ route('send-message') }}">
+                                    @csrf
                                     <div class="controls">
                                         <div class="row">
                                             <div class="col-md-6">

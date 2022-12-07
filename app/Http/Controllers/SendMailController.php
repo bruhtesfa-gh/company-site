@@ -27,10 +27,10 @@ class SendMailController extends Controller
             'subject' => ['required', 'string', 'max:255'],
             "massage" => ['required', 'string']
         ]);
-
-        if ($this->sendEmail($validated['name'], $validated['email'], $validated['subject'], $validated['message'])) {
-            return redirect()->back()->with('message', 'Email Received');
-        }
+        return response()->json($validated);
+        // if ($this->sendEmail($validated['name'], $validated['email'], $validated['subject'], $validated['message'])) {
+        //     return redirect()->back()->with('message', 'Email Received');
+        // }
         return redirect()->back()->with('error', 'Some error occurred Please try again');
     }
 

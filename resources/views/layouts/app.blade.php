@@ -8,7 +8,7 @@
     <title>Eusoft- It Solutions & Software Solution Website Template</title>
     <meta content="" name="Eusoft- It Solutions & Software Solution Website Template">
     <meta content="" name="ZRTHEMES">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicons -->
     <link href="assets/images/favicon.png" rel="icon">
     <link href="assets/images/apple-touch-icon.png" rel="apple-touch-icon">
