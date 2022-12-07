@@ -15,7 +15,7 @@ use App\Http\Controllers\TermController;
 use App\Http\Controllers\TestimonialController;
 use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,3 +41,7 @@ Route::resource("teams", TeamController::class);
 Route::resource("terms", TermController::class);
 Route::resource("testimonials", TestimonialController::class);
 Route::post('send-message', [SendMailController::class, 'store'])->name('send-message');
+
+Auth::routes();
+
+Route::get('/', [WelcomeController::class, 'index'])->name('home');
