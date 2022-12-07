@@ -14,7 +14,6 @@ $(function () {
                 url: url,
                 data: $(this).serialize(),
                 success: function (data) {
-                    console.log(data);
                     if (data.success) {
                         $("#msgSubmit").removeClass("hidden");
                         $('#ajax-contact')[0].reset();
@@ -23,7 +22,6 @@ $(function () {
                     }
                 },
                 error: function (error) {
-                    console.log(error);
                     $("#msgSubmitError").removeClass("hidden");
                     $('#ajax-contact')[0].reset();
                 }
