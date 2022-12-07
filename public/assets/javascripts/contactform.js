@@ -14,12 +14,18 @@ $(function () {
                 url: url,
                 data: $(this).serialize(),
                 success: function (data) {
-                    console.log(data)
-                    $("#msgSubmit").removeClass("hidden");
-                    $('#ajax-contact')[0].reset();
+                    console.log(data);
+                    if (data.success) {
+                        $("#msgSubmit").removeClass("hidden");
+                        $('#ajax-contact')[0].reset();
+                    } else {
+                        $("#msgSubmitError").removeClass("hidden");
+                    }
                 },
                 error: function (error) {
                     console.log(error);
+                    $("#msgSubmitError").removeClass("hidden");
+                    $('#ajax-contact')[0].reset();
                 }
             });
             return false;

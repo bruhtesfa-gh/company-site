@@ -80,6 +80,10 @@
                                                     id="msgSubmit"><button type="button" class="close"
                                                         data-dismiss="alert" aria-hidden="true">&times;</button> Thank
                                                     You! your message has been sent. </div>
+                                                <div class="alert alert alert-danger alert-dismissable alert-dismissable hidden"
+                                                    id="msgSubmitError"><button type="button" class="close"
+                                                        data-dismiss="alert" aria-hidden="true">&times;</button> Sorry!
+                                                    your message is no received please try again. </div>
                                             </div>
                                         </div>
                                     </div>

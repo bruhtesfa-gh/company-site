@@ -22,19 +22,18 @@ class SendMailController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'email'],
-            'subject' => ['required', 'string', 'max:255'],
-            "massage" => ['required', 'string']
+            'name' => ['string', 'max:255'],
+            'email' => ['email'],
+            'subject' => ['string', 'max:255'],
+            "message" => ['string']
         ]);
-        return response()->json($validated);
-        // if ($this->sendEmail($validated['name'], $validated['email'], $validated['subject'], $validated['message'])) {
-        //     return redirect()->back()->with('message', 'Email Received');
-        // }
-        return redirect()->back()->with('error', 'Some error occurred Please try again');
+        if ($this->sendEmail($validated['name'], $validated['email'], $validated['subject'], $validated['message'])) {
+            return response()->json(["success" => true, "error" => false]);
+        }
+        return response()->json(["success" => false, "error" => true]);
     }
 
-    private function sendEmail($name, $email,  $subject, $massage)
+    private function sendEmail($name, $email,  $subject, $message)
     {
         try {
             $mail = new PHPMailer(true);
@@ -62,8 +61,11 @@ class SendMailController extends Controller
                 $mail->Subject = $subject;
                 $mail->Body    = "*This is a system generated email - please do not reply* <br> Dear " . $name . " <br> " . $subject;
                 //$mail->AltBody = 'go to ' . $this->link;
-
-                $mail->send();
+                if ($mail->Send()) {
+                    return true;
+                } else {
+                    return false;
+                }
                 //echo 'Message has been sent';
             } catch (Exception $e) {
                 return false;
