@@ -64,9 +64,11 @@ ul {
 .mt-20 {
   margin-top: 20px;
 }
-.mt-m70{
+
+.mt-m70 {
   /* margin-top: -70px; */
 }
+
 .seprator {
   margin: 0 20px;
 }
@@ -75,12 +77,13 @@ ul {
   background-color: #fbfbfb;
 }
 
-.main-button{
+.main-button {
   background: #10bab9;
   padding: 10px 20px !important;
   color: #fff !important;
 }
-.h-full{
+
+.h-full {
   height: unset;
 }
 
@@ -163,9 +166,11 @@ section {
 .project-btn .fill-btn {
   width: 100%;
 }
+
 .project-btn .fill-btn::hover {
   color: #fff;
 }
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -918,10 +923,11 @@ section {
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
-.image-design-box{
+.image-design-box {
   position: relative;
 }
-.image-design-box::before{
+
+.image-design-box::before {
   content: '';
   position: absolute;
   width: 300px;
@@ -934,7 +940,8 @@ section {
   right: 0px;
   font-weight: bold;
 }
-.image-design-box::after{
+
+.image-design-box::after {
   content: '';
   position: absolute;
   width: 300px;
@@ -947,6 +954,7 @@ section {
   border: 3px solid #eb4680;
   font-weight: bold;
 }
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
@@ -1205,9 +1213,11 @@ section {
 .clients {
   padding: 40px 0;
 }
-.clients{
+
+.clients {
   overflow: hidden;
 }
+
 .clients .swiper {
   padding: 10px 0;
 }
@@ -1643,13 +1653,16 @@ section {
   border: 2px solid transparent;
   margin-bottom: 30px;
 }
+
 .pricing-table:hover {
   border-color: #10bab9;
 }
+
 .pricing-table .price-header {
   position: relative;
   transition: 0.3s ease-in;
 }
+
 .pricing-table .price-header .title {
   color: #282828;
   font-size: 21px;
@@ -1661,11 +1674,13 @@ section {
   margin-bottom: 5px;
   padding: 10px 0 0;
 }
+
 .pricing-table .price-header .subtitle {
   margin-bottom: 5px;
   display: block;
   font-size: 14px;
 }
+
 .pricing-table .price {
   font-size: 50px;
   color: #ffffff;
@@ -1680,19 +1695,23 @@ section {
   border-radius: 2px;
   z-index: 0;
 }
+
 .pricing-table .price .month {
   font-size: 16px;
   font-weight: 600;
 }
+
 .pricing-table .price .dollar {
   font-size: 33px;
   line-height: 33px;
   position: relative;
   top: -12px;
 }
+
 .pricing-table .price-footer {
   margin-top: 40px;
 }
+
 .pricing-table .price-footer .order-btn {
   display: inline-block;
   width: 165px;
@@ -1710,15 +1729,18 @@ section {
   margin-bottom: 30px;
   background-color: #eb4680;
 }
+
 .pricing-table .price-footer .order-btn:hover {
   -moz-box-shadow: 0 0 10px #e4e4e4;
-    -webkit-box-shadow: 0 0 10px #e4e4e4;
-    -o-box-shadow: 0 0 10px #e4e4e4;
+  -webkit-box-shadow: 0 0 10px #e4e4e4;
+  -o-box-shadow: 0 0 10px #e4e4e4;
 }
+
 .pricing-table .price-body ul {
   margin: 0;
   padding: 0;
 }
+
 .pricing-table .price-body ul li {
   list-style: none;
   display: block;
@@ -1728,11 +1750,13 @@ section {
   transition: 0.3s ease-in;
   background: transparent;
 }
+
 .pricing-table .price-body ul li:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
 .pricing-table .price-body ul li:first-child {
   margin-top: 0;
 }
@@ -1922,11 +1946,11 @@ section {
 }
 
 .hero .heading-secondy {
-    color: #02336e;
-    font-size: 63px;
-    line-height: 60px;
-    font-weight: 300;
-    text-transform: uppercase;
+  color: #02336e;
+  font-size: 63px;
+  line-height: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 @media (min-width: 1365px) {
@@ -2000,7 +2024,7 @@ section {
     padding: 97px 0 0 0;
   }
 
-  .hero .h-full{
+  .hero .h-full {
     height: unset;
   }
 
@@ -3241,7 +3265,9 @@ section {
 .footer-bottom .footer-nav li:first-child:before {
   display: none;
 }
+
 @media (max-width: 991px) {
+
   .footer-bottom .footer-nav,
   .footer-bottom {
     text-align: center;
@@ -3821,4 +3847,10 @@ section {
   position: absolute;
   top: -10px;
   width: 120px;
+}
+
+.img-project {
+  width: 100%;
+  height: 15rem;
+  object-fit: contain;
 }

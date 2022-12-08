@@ -16,7 +16,8 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        $projects = Project::all();
+        $projects = Project::all()->groupBy('category');
+        //dd($projects);
         return view('project', compact('projects'));
     }
 
