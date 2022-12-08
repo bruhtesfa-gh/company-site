@@ -20,7 +20,7 @@ class CreateSocialMediaAddressesTable extends Migration
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
             $table->string('media');
-            $table->string('url');
+            $table->string('url')->nullable();
             $table->timestamps();
         });
     }
