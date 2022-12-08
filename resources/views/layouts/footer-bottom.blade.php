@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 column">
-                <div class="copyright"><a href="#">Eusoft</a> &copy; 2022 All Right Reserved</div>
+                <div class="copyright"><a href="#">Fejlesztő</a> &copy; 2022 All Right Reserved</div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 column">
                 <ul class="footer-nav">

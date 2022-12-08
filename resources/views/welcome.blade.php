@@ -208,7 +208,7 @@ helping your business accomplish its goals.
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h2>Our Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Some of our works for client are listed blow</p>
             </div>
             <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
                 data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
@@ -881,8 +881,8 @@ helping your business accomplish its goals.
                                 <div class="single-contact-info-box">
                                     <div class="contact-info">
                                         <h6>Address:</h6>
-                                        <p>11 West Town</p>
-                                        <p>PBo 12345, United States</p>
+                                        <p>Piassa Street</p>
+                                        <p> Bahir Dar, Ethiopia</p>
                                     </div>
                                 </div>
                             </div>
@@ -899,7 +899,7 @@ helping your business accomplish its goals.
                                 <div class="single-contact-info-box">
                                     <div class="contact-info">
                                         <h6>Email:</h6>
-                                        <p>info@example.com</p>
+                                        <p>noreply@fejleszto-tech.com</p>
                                         <p>email@example.com</p>
                                     </div>
                                 </div>
