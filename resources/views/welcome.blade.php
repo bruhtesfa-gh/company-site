@@ -61,9 +61,14 @@
             <div class="col-md-4 col-sm-12 equal-height">
                 <div class="item">
                     <i class="fa fa-tasks"></i>
-                    <h4>Project Management</h4>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <h4>Project Content Management</h4>
+                    <p align="justify">
+                    A Content Management System is a web application that makes
+content authoring and content delivery easy. It enables even non-
+technical users to efficiently build a website, streamline the web
+publishing procedures and quickly deploy them, creating a content-rich
+website.
+.
                     </p>
                 </div>
             </div>
@@ -73,9 +78,13 @@
             <div class="col-md-4 col-sm-12 equal-height">
                 <div class="item">
                     <i class="fa fa-tachometer"></i>
-                    <h4>Project Impliment</h4>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <h4>UI/UX Design</h4>
+                    <p p align="justify">
+                    Intuitive designs combined with compelling user experience are what makes our
+apps stand ahead in the digital age. Seamless experience driven by international
+standards in collaboration with out-of-the-box ideas is the specialty of Fejlesztő 
+helping your business accomplish its goals.
+
                     </p>
                 </div>
             </div>
@@ -85,9 +94,12 @@
             <div class="col-md-4 col-sm-12 equal-height">
                 <div class="item">
                     <i class="fa fa-recycle"></i>
-                    <h4>Software Update</h4>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <h4>Software Update Services</h4>
+                    <p align="justify">
+                    Updates can prevent security issues and improve compatibility and program features. 
+                    Software updates are necessary to keep computers, mobile devices and tablets running
+                     smoothly -- and they may lower security vulnerabilities.
+                     Data breaches, hacks, cyber attacks and identity theft have all been in the news.
                     </p>
                 </div>
             </div>
@@ -98,8 +110,11 @@
                 <div class="item">
                     <i class="fa fa-handshake-o"></i>
                     <h4>24/7 Support</h4>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p align="justify">
+                    Whether for on-site assistance, technical support, or remote support, Source is here to ensure 
+                    our customers’ success and end-users’ business productivity. We offer dependable, on-demand
+                     support options including 24/7 technical and remote support
+                     and 4-hour and next business day global on-site support in over 100 countries worldwide
                     </p>
                 </div>
             </div>
@@ -117,21 +132,26 @@
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p align="justify">Fejlesztő Software Plc is an outstanding and professional IT company established in 2012 in the capital city of Ethiopia.
+                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further technologies to the consumer. 
+                     Also, it is a technology wise creative company doing extensive projects in the field of Website Design, Website Development, 
+                     Search Engine Optimization (SEO), Website Hosting, Software Development, Mobile Application Development and IT service and support.
+                      Our expertise are committed to provide work which pursue the desires of our clients and pushes the limits of creativity at quick turn around 
+                      time with utmost quality.</p>
             </div>
 
             <div class="row gy-4">
                 <div class="col-lg-6">
-                    <div class="content ps-0" data-aos="fade-right">
-                        <div class="bar learning" data-skill="TDD"></div>
+                    <div class="content ps-0" data-aos="PHP">
+                        <div class="bar learning" data-skill="Laravel"></div>
                         <div class="bar back basic" data-skill="Python"></div>
                         <div class="bar back intermediate" data-skill="C#"></div>
                         <div class="bar front advanced" data-skill="CSS3"></div>
                         <div class="bar front expert" data-skill="HTML5"></div>
                         <div class="bar front expert" data-skill="JQuery"></div>
-                        <div class="bar front advanced" data-skill="React"></div>
+                        <div class="bar front advanced" data-skill="React JS"></div>
                         <div class="bar front basic" data-skill="Javascripts"></div>
-                        <div class="bar front intermediate" data-skill="Angular Js"></div>
+                        <div class="bar front intermediate" data-skill="Node Js"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 image-design-box">
@@ -147,8 +167,8 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-header">
-                <h2>Why Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <h2>Why Choose Us</h2>
+                <p>We are here to help you.</p>
             </div>
 
             <div class="row gy-4">
@@ -158,30 +178,23 @@
                 <div class="col-lg-6">
                     <div class="content ps-0 ps-lg-5">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et
-                            dolore
-                            magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore
-                            magna aliqua.
+                        Our team consists of certified SEO, PPC, and Social Media experts with years of experience. 
+                        Our experts have been featured on reputable blogs across the globe, making our website 
+                        company in ethiopia, one you can trust.
                         </p>
                         <ul>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Nemo enim ipsam voluptatem quia voluptas
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project.
                                 sit</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Sed quia consequuntur magni dolores eos
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player in East Africa's technology solutions space
                                 qui ratione</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Nemo enim ipsam voluptatem quia voluptas
+                            <li><i class="bi bi-arrow-right-square-fill"></i> TRUST WORTHY 
                                 sit aspernatur</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Sed quia consequuntur magni dolores eos
-                                qui ratione</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Neque porro quisquam est, qui dolorem
-                                ipsum quia dolor</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Consectetur, adipisci velit, sed quia non
-                                numquam</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Rempora incidunt ut labore et dolore
-                                magnam aliquam</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>MULTI INDUSTRIAL  
+                                </li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i> VERY AFFORDABLE PACKAGES</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes &
+                                      Transparent communication within the team</li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -649,7 +662,7 @@
     </section><!-- End Our Team Section -->
 
     <!-- Pricing -->
-    <div id="pricing" class="section">
+    <!-- <div id="pricing" class="section">
         <div class="container">
             <div class="section-header">
                 <h2>Our Pricing</h2>
@@ -724,7 +737,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Recent Blog Posts Section -->
