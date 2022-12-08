@@ -132,21 +132,26 @@ helping your business accomplish its goals.
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p align="justify">Fejlesztő Software Plc is an outstanding and professional IT company established in 2012 in the capital city of Ethiopia.
+                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further technologies to the consumer. 
+                     Also, it is a technology wise creative company doing extensive projects in the field of Website Design, Website Development, 
+                     Search Engine Optimization (SEO), Website Hosting, Software Development, Mobile Application Development and IT service and support.
+                      Our expertise are committed to provide work which pursue the desires of our clients and pushes the limits of creativity at quick turn around 
+                      time with utmost quality.</p>
             </div>
 
             <div class="row gy-4">
                 <div class="col-lg-6">
-                    <div class="content ps-0" data-aos="fade-right">
-                        <div class="bar learning" data-skill="TDD"></div>
+                    <div class="content ps-0" data-aos="PHP">
+                        <div class="bar learning" data-skill="Laravel"></div>
                         <div class="bar back basic" data-skill="Python"></div>
                         <div class="bar back intermediate" data-skill="C#"></div>
                         <div class="bar front advanced" data-skill="CSS3"></div>
                         <div class="bar front expert" data-skill="HTML5"></div>
                         <div class="bar front expert" data-skill="JQuery"></div>
-                        <div class="bar front advanced" data-skill="React"></div>
+                        <div class="bar front advanced" data-skill="React JS"></div>
                         <div class="bar front basic" data-skill="Javascripts"></div>
-                        <div class="bar front intermediate" data-skill="Angular Js"></div>
+                        <div class="bar front intermediate" data-skill="Node Js"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 image-design-box">
@@ -162,8 +167,8 @@ helping your business accomplish its goals.
         <div class="container" data-aos="fade-up">
 
             <div class="section-header">
-                <h2>Why Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <h2>Why Choose Us</h2>
+                <p>We are here to help you.</p>
             </div>
 
             <div class="row gy-4">
@@ -173,30 +178,23 @@ helping your business accomplish its goals.
                 <div class="col-lg-6">
                     <div class="content ps-0 ps-lg-5">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et
-                            dolore
-                            magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore
-                            magna aliqua.
+                        Our team consists of certified SEO, PPC, and Social Media experts with years of experience. 
+                        Our experts have been featured on reputable blogs across the globe, making our website 
+                        company in ethiopia, one you can trust.
                         </p>
                         <ul>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Nemo enim ipsam voluptatem quia voluptas
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project.
                                 sit</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Sed quia consequuntur magni dolores eos
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player in East Africa's technology solutions space
                                 qui ratione</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Nemo enim ipsam voluptatem quia voluptas
+                            <li><i class="bi bi-arrow-right-square-fill"></i> TRUST WORTHY 
                                 sit aspernatur</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Sed quia consequuntur magni dolores eos
-                                qui ratione</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Neque porro quisquam est, qui dolorem
-                                ipsum quia dolor</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Consectetur, adipisci velit, sed quia non
-                                numquam</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> Rempora incidunt ut labore et dolore
-                                magnam aliquam</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>MULTI INDUSTRIAL  
+                                </li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i> VERY AFFORDABLE PACKAGES</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes &
+                                      Transparent communication within the team</li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -664,7 +662,7 @@ helping your business accomplish its goals.
     </section><!-- End Our Team Section -->
 
     <!-- Pricing -->
-    <div id="pricing" class="section">
+    <!-- <div id="pricing" class="section">
         <div class="container">
             <div class="section-header">
                 <h2>Our Pricing</h2>
@@ -739,7 +737,7 @@ helping your business accomplish its goals.
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Recent Blog Posts Section -->
