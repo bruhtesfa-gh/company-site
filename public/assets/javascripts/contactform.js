@@ -5,6 +5,7 @@ $(function () {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
+    $('#my-form').validator();
     $('#ajax-contact').validator();
     $('#ajax-contact').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {

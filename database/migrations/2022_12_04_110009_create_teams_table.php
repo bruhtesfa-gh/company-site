@@ -19,9 +19,9 @@ class CreateTeamsTable extends Migration
                 ->on('users')
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
-            $table->string("role");
-            $table->string("picture");
-            $table->timestamp("leave_at");
+            $table->string("career");
+            $table->string("image");
+            $table->timestamp("leave_at")->nullable();
             $table->timestamps();
         });
     }

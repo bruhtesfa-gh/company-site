@@ -8,39 +8,49 @@
             <div class="container position-relative">
                 <div class="contact-form-box contact-form contact-form-3">
                     <div class="form-container-box">
-                        <form class="contact-form form" id="my-form" method="POST" action="{{ route('blogs.store') }}"
+                        <form class="contact-form form" id="my-form" method="POST" action="{{ route('teams.store') }}"
                             enctype="multipart/form-data">
                             @csrf
                             <div class="controls">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group form-input-box mb-2">
-                                            <input type="text" class="form-control" id="title" name="title"
-                                                placeholder="Title*" required="required"
-                                                data-error="title is required.">
+                                            <select name="user_id" id="user_id" required="required"
+                                                data-error="User is required."
+                                                class="form-control form-select custom-select">
+                                                <option value=""> Select User </option>
+                                                @foreach ($users as $user)
+                                                <option value="{{$user->id}}">{{$user->name}}</option>
+                                                @endforeach
+                                            </select>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
+
                                     <div class="col-md-12">
                                         <div class="form-group form-input-box mb-2">
-                                            <input type="text" class="form-control" id="link" name="link"
-                                                placeholder="Link*" required="required" data-error="link is required.">
+                                            <input type="text" class="form-control" id="career" name="career"
+                                                placeholder="Career*" required="required"
+                                                data-error="career is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
+                                    @foreach ($medias as $item)
+                                    <div class="col-md-12">
+                                        <div class="form-group form-input-box mb-2">
+                                            <input type="text" class="form-control" id="{{$item}}" name="{{$item}}"
+                                                placeholder="{{ucfirst($item)}}*"
+                                                {{$item == 'linkedin' ? "required" : ""}}
+                                                data-error="{{$item}} is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    @endforeach
                                     <div class="col-md-12">
                                         <div class="form-group form-input-box mb-2">
                                             <input type="file" class="form-control" id="image" name="image"
                                                 placeholder="Image*" required="required"
                                                 data-error="image is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group form-input-box mb-2">
-                                            <textarea class="form-control" id="discription" name="discription" rows="7"
-                                                placeholder="Write Your Discription*" required="required"
-                                                data-error="Please, leave us a discription."></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
