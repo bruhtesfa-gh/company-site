@@ -14,7 +14,7 @@ class PolicyController extends Controller
      */
     public function index()
     {
-        //
+        return view('policy');
     }
 
     /**

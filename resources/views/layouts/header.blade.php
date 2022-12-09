@@ -1,35 +1,37 @@
 <!-- Header Section -->
 <header id="header" class="single-page-header header d-flex align-items-center">
     <div class="container container-xl d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="/" class="logo d-flex align-items-center">
             <h1><span>Fe</span>jlesztő<span>.</span></h1>
         </a>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li class="dropdown"><a href="#"><span>Projects</span> <i
+                <li><a href="/">Home</a></li>
+                <li><a href="{{route('services.index')}}">Services</a></li>
+                <li><a href="{{route('projects.index')}}">Projects</a></li>
+                {{-- <li class="dropdown"><a href="#"><span>Projects</span> <i
                             class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="project-details.html">Project Details</a></li>
                     </ul>
-                </li>
-                <li><a href="about.html">About</a></li>
+                </li> --}}
+                <li><a href="{{route('about-us.index')}}">About</a></li>
                 <!-- <li><a href="packages.html">Pricing</a></li> -->
+                <li><a href="{{route('blogs.index')}}">Blogs</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
                 <li class="dropdown"><a href="#"><span>All Pages</span> <i
                             class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
                         <!-- <li><a href="login.html">Login</a></li> -->
                         <!-- <li><a href="register.html">Signup</a></li> -->
-                        <li><a href="faq.html">FAQs</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="{{route('faqs.index')}}">FAQs</a></li>
+                        <li><a href="{{route('teams.index')}}">Team</a></li>
+                        <!-- <li><a href="{{route('blogs.index')}}">Blogs</a></li> -->
                         <!-- <li><a href="blogs-details.html">Blog Details</a></li> -->
                         <!-- <li><a href="coming-soon.html">Coming Soon</a></li> -->
-                        <li><a href="terms.html">Terms & Conditions</a></li>
-                        <li><a href="policy.html">Privacy Policy</a></li>
+                        <li><a href="{{route('terms.index')}}">Terms & Conditions</a></li>
+                        <li><a href="{{route('policies.index')}}">Privacy Policy</a></li>
                         @guest
                         @if (Route::has('register'))
                         @endif
@@ -55,8 +57,8 @@
                         <!-- <li><a href="sample.html">Sample Page</a></li> -->
                     </ul>
                 </li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="contact.html" class="main-button">Contact</a></li>
+
+                <li><a href="{{route('contact-us.index')}}" class="main-button">Contact</a></li>
             </ul>
         </nav><!-- navbar-->
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>

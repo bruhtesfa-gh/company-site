@@ -518,7 +518,6 @@
                 <h2>Our Team</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-
             @include('inclusive-team')
         </div>
     </section>
@@ -623,95 +622,7 @@
             <h2>Contact Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-12" data-aos="fade-left">
-                    <div class="contact-form-box contact-form contact-form-3">
-                        <div class="form-container-box">
-                            <form class="contact-form form" id="ajax-contact" method="post"
-                                action="assets/phpscripts/contact.php">
-                                <div class="controls">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group form-input-box">
-                                                <input type="text" class="form-control" id="name" name="name"
-                                                    placeholder="Name*" required="required"
-                                                    data-error="Name is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group form-input-box">
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                    placeholder="Email*" required="required"
-                                                    data-error="Valid email is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group form-input-box">
-                                                <input type="text" class="form-control" name="subject"
-                                                    placeholder="Subject" required="required">
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group form-input-box">
-                                                <textarea class="form-control" id="message" name="message" rows="7"
-                                                    placeholder="Write Your Message*" required="required"
-                                                    data-error="Please, leave us a message."></textarea>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <button type="submit" data-text="Send Message">Send Message</button>
-                                        </div>
-                                        <div class="messages">
-                                            <div class="alert alert alert-success alert-dismissable alert-dismissable hidden"
-                                                id="msgSubmit"><button type="button" class="close" data-dismiss="alert"
-                                                    aria-hidden="true">&times;</button> Thank You! your message has been
-                                                sent. </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12" data-aos="fade-right">
-                    <div class="contact-information-box-3">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="single-contact-info-box">
-                                    <div class="contact-info">
-                                        <h6>Address:</h6>
-                                        <p>Piassa Street</p>
-                                        <p> Bahir Dar, Ethiopia</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="single-contact-info-box">
-                                    <div class="contact-info">
-                                        <h6>Phone:</h6>
-                                        <p>+1 1234 56 789</p>
-                                        <p>+1 1234 56 780</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="single-contact-info-box">
-                                    <div class="contact-info">
-                                        <h6>Email:</h6>
-                                        <p>noreply@fejleszto-tech.com</p>
-                                        <p>email@example.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('inclusive-contact-us')
     </div>
     <!-- End Contact Section -->
 
