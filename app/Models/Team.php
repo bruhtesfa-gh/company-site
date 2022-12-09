@@ -15,4 +15,9 @@ class Team extends Model
     {
         return $this->belongsTo(User::class, 'user_id');
     }
+
+    public function contact_adds()
+    {
+        return $this->hasMany(SocialMediaAddress::class, 'team_id');
+    }
 }

@@ -31,24 +31,23 @@
     </div><!-- End Breadcrumbs -->
 
     <div class="single-page">
-        <!-- - - - - - - - -  Our Team Section - - - - - - - -  -->
         <section id="team" class="team">
             <div class="container" data-aos="fade-up">
-
                 <div class="row gy-4">
+                    @foreach ($teams as $team)
                     <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
-                            <img src="assets/images/team/team-1.jpg" class="img-fluid" alt="">
+                            <img src="{{"http://127.0.0.1:8000/" . $team->image}}" class="img-team" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
+                                @foreach ($team->contact_adds as $social)
+                                <a href="{{$social->url}}"><i class="{{"bi bi-" . $social->media}}"></i></a>
+                                @endforeach
                             </div>
-                            <h4>Jhone Bi</h4>
-                            <span>Application Manager</span>
+                            <h4>{{$team->user->name}}</h4>
+                            <span>{{$team->career}}</span>
                         </div>
-                    </div><!-- End Team Member -->
+                    </div>
+                    @endforeach
 
                     <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">

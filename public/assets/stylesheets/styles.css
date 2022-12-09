@@ -3854,3 +3854,9 @@ section {
   height: 15rem;
   object-fit: contain;
 }
+
+.img-team {
+  width: 17.25rem;
+  height: 21.5rem;
+  object-fit: cover;
+}

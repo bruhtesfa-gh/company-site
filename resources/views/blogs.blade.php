@@ -43,25 +43,30 @@
             <div id="recent-posts" class="recent-posts">
                 <div class="container" data-aos="fade-up">
                     <div class="row gy-4">
+                        @foreach ($blogs as $blog)
                         <div class="col-lg-4">
                             <article>
                                 <div class="post-img">
-                                    <img src="assets/images/blog/blog-1.jpg" alt="" class="img-fluid">
+                                    <img src="{{"http://127.0.0.1:8000/" . $blog->image}}" alt="blog image"
+                                        class="img-fluid">
                                 </div>
-                                <p class="post-category">Domain & Hosting</p>
+                                <p class="post-category">{{$blog->title}}</p>
                                 <h2 class="title">
-                                    <a href="blogs-details.html">How to host website on any hosting provider?</a>
+                                    <a href="blogs-details.html">{{$blog->discription}}</a>
                                 </h2>
                                 <div class="d-flex align-items-center">
                                     <div class="post-meta">
-                                        <p class="post-author">William Bla</p>
+                                        <p class="post-author">{{$blog->post_man}}</p>
                                         <p class="post-date">
-                                            <time datetime="2022-01-01">Feb 1, 2022</time>
+                                            <time
+                                                datetime="{{$blog->created_at->format('Y-m-d')}}">{{$blog->created_at->format('M d, Y')}}</time>
                                         </p>
                                     </div>
                                 </div>
                             </article>
-                        </div><!-- End post list item -->
+                        </div>
+                        @endforeach
+                        <!-- End post list item -->
 
                         <div class="col-lg-4">
                             <article>
