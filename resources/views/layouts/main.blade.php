@@ -59,6 +59,7 @@
 
     <!-- Template Main JS File -->
     <script src={{ asset("assets/javascripts/main.js") }}></script>
+    @stack('js')
 </body>
 
 </html>

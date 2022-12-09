@@ -36,12 +36,50 @@
         </div>
         <!-- End Contact Section -->
     </div>
-
-    <div class="map-area">
-        <div class="map-content">
-            <div class="map-canvas" id="contact-map"></div>
+    <div class="container mb-5">
+        <div class="map-area">
+            <div class="map-content">
+                <div class="map-canvas" id="contact-map"></div>
+            </div>
         </div>
     </div>
 
 </main>
 @endsection
+
+@push('js')
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkgUgM_8LYsqEIEvgBI8u7BdH2k4cZ8QU&callback=initMap&v=weekly"
+    async>
+</script>
+
+<script>
+    $(document).ready(function () {
+        initMap();
+    });
+    let map , infoWindow;
+    function initMap() {
+        let center = { lat: 11.594584275310048, lng: 37.388413181713794 };
+        map = new google.maps.Map(document.getElementById("contact-map"), {
+            center: center,
+            zoom: 15,
+            scrollwheel: true,
+        });
+        let marker = new google.maps.Marker({
+            position: center,
+            map: map,
+            draggable: false
+        });
+    }
+
+    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+      infoWindow.setPosition(pos);
+      infoWindow.setContent(
+        browserHasGeolocation
+          ? "Error: The Geolocation service failed."
+          : "Error: Your browser doesn't support geolocation."
+      );
+      infoWindow.open(map);
+    }
+</script>
+@endpush

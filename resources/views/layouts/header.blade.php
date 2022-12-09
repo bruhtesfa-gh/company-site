@@ -57,7 +57,6 @@
                         <!-- <li><a href="sample.html">Sample Page</a></li> -->
                     </ul>
                 </li>
-
                 <li><a href="{{route('contact-us.index')}}" class="main-button">Contact</a></li>
             </ul>
         </nav><!-- navbar-->
