@@ -63,7 +63,7 @@
         map = new google.maps.Map(document.getElementById("contact-map"), {
             center: center,
             zoom: 15,
-            scrollwheel: true,
+            scrollwheel: false,
         });
         let marker = new google.maps.Marker({
             position: center,
