@@ -23,106 +23,7 @@
     </div>
 </section>
 <!-- End Hero Section -->
-<!-- Start Services Section -->
-<div id="services" class="the-main-service text-center section">
-    <div class="container">
-        <div class="row our-offer-items less-carousel">
-            <!-- Main Service -->
-            <div class="col-md-4 col-sm-12 equal-height">
-                <div class="item">
-                    <i class="fa fa-pencil"></i>
-                    <h4>Web Design</h4>
-                    <p align="justify">
-                In today's competitive internet market, website design  services are crucial.
-                 Fejlesztő focuses on  The visual first impression your website produces will
-                 have a significant impact on a pov client's decision to click away or
-                 continue reading. 
-                    </p>
-                </div>
-            </div>
-            <!-- End Main Service -->
-
-            <!-- Main Service -->
-            <div class="col-md-4 col-sm-12 equal-height">
-                <div class="item">
-                    <i class="fa  fa-pie-chart"></i>
-                    <h4>Software Development</h4>
-                    <p align="justify" >
-                    Fejlesztő  specializes in developing extensible software for a multitude of industries. 
-                    We provide the technological expertise and an established development methodology to deliver 
-                    custom web application projects. Our clients gain market share,increase efficiency, enhance 
-                    productivity, reduce operating costs, and boost customer satisfaction.
-                    </p>
-                </div>
-            </div>
-            <!-- End Main Service -->
-
-            <!-- Main Service -->
-            <div class="col-md-4 col-sm-12 equal-height">
-                <div class="item">
-                    <i class="fa fa-tasks"></i>
-                    <h4>Project Content Management</h4>
-                    <p align="justify">
-                    A Content Management System is a web application that makes
-content authoring and content delivery easy. It enables even non-
-technical users to efficiently build a website, streamline the web
-publishing procedures and quickly deploy them, creating a content-rich
-website.
-.
-                    </p>
-                </div>
-            </div>
-            <!-- End Main Service -->
-
-            <!-- Main Service -->
-            <div class="col-md-4 col-sm-12 equal-height">
-                <div class="item">
-                    <i class="fa fa-tachometer"></i>
-                    <h4>UI/UX Design</h4>
-                    <p p align="justify">
-                    Intuitive designs combined with compelling user experience are what makes our
-apps stand ahead in the digital age. Seamless experience driven by international
-standards in collaboration with out-of-the-box ideas is the specialty of Fejlesztő 
-helping your business accomplish its goals.
-
-                    </p>
-                </div>
-            </div>
-            <!-- End Main Service -->
-
-            <!-- Main Service -->
-            <div class="col-md-4 col-sm-12 equal-height">
-                <div class="item">
-                    <i class="fa fa-recycle"></i>
-                    <h4>Software Update Services</h4>
-                    <p align="justify">
-                    Updates can prevent security issues and improve compatibility and program features. 
-                    Software updates are necessary to keep computers, mobile devices and tablets running
-                     smoothly -- and they may lower security vulnerabilities.
-                     Data breaches, hacks, cyber attacks and identity theft have all been in the news.
-                    </p>
-                </div>
-            </div>
-            <!-- End Main Service -->
-
-            <!-- Main Service -->
-            <div class="col-md-4 col-sm-12 equal-height">
-                <div class="item">
-                    <i class="fa fa-handshake-o"></i>
-                    <h4>24/7 Support</h4>
-                    <p align="justify">
-                    Whether for on-site assistance, technical support, or remote support, Source is here to ensure 
-                    our customers’ success and end-users’ business productivity. We offer dependable, on-demand
-                     support options including 24/7 technical and remote support
-                     and 4-hour and next business day global on-site support in over 100 countries worldwide
-                    </p>
-                </div>
-            </div>
-            <!-- End Main Service -->
-        </div>
-    </div>
-</div>
-<!-- End Services Section -->
+@include('inclusive-service')
 
 <main id="main">
 
@@ -132,12 +33,17 @@ helping your business accomplish its goals.
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p align="justify">Fejlesztő Software Plc is an outstanding and professional IT company established in 2012 in the capital city of Ethiopia.
-                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further technologies to the consumer. 
-                     Also, it is a technology wise creative company doing extensive projects in the field of Website Design, Website Development, 
-                     Search Engine Optimization (SEO), Website Hosting, Software Development, Mobile Application Development and IT service and support.
-                      Our expertise are committed to provide work which pursue the desires of our clients and pushes the limits of creativity at quick turn around 
-                      time with utmost quality.</p>
+                <p align="justify">Fejlesztő Software Plc is an outstanding and professional IT company established in
+                    2012 in the capital city of Ethiopia.
+                    Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further
+                    technologies to the consumer.
+                    Also, it is a technology wise creative company doing extensive projects in the field of Website
+                    Design, Website Development,
+                    Search Engine Optimization (SEO), Website Hosting, Software Development, Mobile Application
+                    Development and IT service and support.
+                    Our expertise are committed to provide work which pursue the desires of our clients and pushes the
+                    limits of creativity at quick turn around
+                    time with utmost quality.</p>
             </div>
 
             <div class="row gy-4">
@@ -178,23 +84,25 @@ helping your business accomplish its goals.
                 <div class="col-lg-6">
                     <div class="content ps-0 ps-lg-5">
                         <p>
-                        Our team consists of certified SEO, PPC, and Social Media experts with years of experience. 
-                        Our experts have been featured on reputable blogs across the globe, making our website 
-                        company in ethiopia, one you can trust.
+                            Our team consists of certified SEO, PPC, and Social Media experts with years of experience.
+                            Our experts have been featured on reputable blogs across the globe, making our website
+                            company in ethiopia, one you can trust.
                         </p>
                         <ul>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project.
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on
+                                your project.
                                 sit</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player in East Africa's technology solutions space
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player
+                                in East Africa's technology solutions space
                                 qui ratione</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> TRUST WORTHY 
+                            <li><i class="bi bi-arrow-right-square-fill"></i> TRUST WORTHY
                                 sit aspernatur</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>MULTI INDUSTRIAL  
-                                </li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>MULTI INDUSTRIAL
+                            </li>
                             <li><i class="bi bi-arrow-right-square-fill"></i> VERY AFFORDABLE PACKAGES</li>
                             <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes &
-                                      Transparent communication within the team</li>
-                            
+                                Transparent communication within the team</li>
+
                         </ul>
                     </div>
                 </div>
@@ -204,7 +112,16 @@ helping your business accomplish its goals.
     </section><!-- End About Us Section -->
 
     <!-- Portfolio Section -->
-    <div id="portfolio" class="portfolio section">
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Some of our works for client are listed blow</p>
+            </div>
+        </div>
+        @include('inclusive-project')
+    </div>
+    {{-- <div id="portfolio" class="portfolio section">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h2>Our Portfolio</h2>
@@ -457,7 +374,8 @@ helping your business accomplish its goals.
             </div>
 
         </div>
-    </div><!-- End Portfolio Section -->
+    </div> --}}
+    <!-- End Portfolio Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action">
@@ -601,65 +519,10 @@ helping your business accomplish its goals.
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
 
-            <div class="row gy-4">
-                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="member">
-                        <img src="assets/images/team/team-1.jpg" class="img-fluid" alt="">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                        </div>
-                        <h4>Jhone Bi</h4>
-                        <span>Application Manager</span>
-                    </div>
-                </div><!-- End Team Member -->
-
-                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                    <div class="member">
-                        <img src="assets/images/team/team-2.jpg" class="img-fluid" alt="">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                        </div>
-                        <h4>Sani Awesome</h4>
-                        <span>Social Media</span>
-                    </div>
-                </div><!-- End Team Member -->
-
-                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-                    <div class="member">
-                        <img src="assets/images/team/team-3.jpg" class="img-fluid" alt="">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                        </div>
-                        <h4>Andrio Willi</h4>
-                        <span>Content Writer</span>
-                    </div>
-                </div><!-- End Team Member -->
-
-                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-                    <div class="member">
-                        <img src="assets/images/team/team-4.jpg" class="img-fluid" alt="">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                        </div>
-                        <h4>Afa Jonson</h4>
-                        <span>Business Manager</span>
-                    </div>
-                </div><!-- End Team Member -->
-            </div>
+            @include('inclusive-team')
         </div>
-    </section><!-- End Our Team Section -->
+    </section>
+    <!-- End Our Team Section -->
 
     <!-- Pricing -->
     <!-- <div id="pricing" class="section">
@@ -747,68 +610,8 @@ helping your business accomplish its goals.
                 <h2>Recent Blog Posts</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div class="row gy-4">
-                <div class="col-lg-4">
-                    <article>
-                        <div class="post-img">
-                            <img src="assets/images/blog/blog-1.jpg" alt="" class="img-fluid">
-                        </div>
-                        <p class="post-category">Domain & Hosting</p>
-                        <h2 class="title">
-                            <a href="blog-details.html">How to host website on any hosting provider?</a>
-                        </h2>
-                        <div class="d-flex align-items-center">
-                            <div class="post-meta">
-                                <p class="post-author">William Bla</p>
-                                <p class="post-date">
-                                    <time datetime="2022-01-01">Feb 1, 2022</time>
-                                </p>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-4">
-                    <article>
-                        <div class="post-img">
-                            <img src="assets/images/blog/blog-2.jpg" alt="" class="img-fluid">
-                        </div>
-                        <p class="post-category">Advertisement</p>
-                        <h2 class="title">
-                            <a href="blog-details.html">How to create add on google adwords?</a>
-                        </h2>
-                        <div class="d-flex align-items-center">
-                            <div class="post-meta">
-                                <p class="post-author">Jobi Ret</p>
-                                <p class="post-date">
-                                    <time datetime="2022-01-01">Oct 5, 2022</time>
-                                </p>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-4">
-                    <article>
-                        <div class="post-img">
-                            <img src="assets/images/blog/blog-3.jpg" alt="" class="img-fluid">
-                        </div>
-                        <p class="post-category">Marketing</p>
-                        <h2 class="title">
-                            <a href="blog-details.html">What is digital marketing and why is important?</a>
-                        </h2>
-                        <div class="d-flex align-items-center">
-                            <div class="post-meta">
-                                <p class="post-author">Main Dow</p>
-                                <p class="post-date">
-                                    <time datetime="2022-01-01">Dec 22, 2022</time>
-                                </p>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- End post list item -->
-
-            </div><!-- End recent posts list -->
+            @include('inclusive-blog')
+            <!-- End recent posts list -->
 
         </div>
     </section><!-- End Recent Blog Posts Section -->

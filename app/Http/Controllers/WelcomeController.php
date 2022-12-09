@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use App\Models\Welcome;
 use Illuminate\Http\Request;
+use App\Models\Project;
+use App\Models\Team;
 
 class WelcomeController extends Controller
 {
@@ -14,7 +17,10 @@ class WelcomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        $projects = Project::all()->groupBy('category');
+        $blogs = Blog::all();
+        $teams = Team::all();
+        return view('welcome', compact('projects', 'blogs', 'teams'));
     }
 
     /**
