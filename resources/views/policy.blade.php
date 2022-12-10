@@ -9,7 +9,7 @@
             <div class="container position-relative">
                 <div class="row d-flex justify-content-start position-relative">
                     <div class="col-lg-6 text-left">
-                        <h2>Privacy Policy</h2>
+                        <h2>Privacy Policy , term & condtion</h2>
                         <p>Our Company Term & Privacy Policy </p>
                         <nav>
                             <ol>

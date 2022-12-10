@@ -30,8 +30,8 @@
                         <!-- <li><a href="{{route('blogs.index')}}">Blogs</a></li> -->
                         <!-- <li><a href="blogs-details.html">Blog Details</a></li> -->
                         <!-- <li><a href="coming-soon.html">Coming Soon</a></li> -->
-                        <li><a href="{{route('terms.index')}}">Terms & Conditions</a></li>
-                        <li><a href="{{route('policies.index')}}">Privacy Policy</a></li>
+                        <!-- <li><a href="{{route('terms.index')}}">Terms & Conditions</a></li> -->
+                        <li><a href="{{route('policies.index')}}">Privacy Policy Terms & Conditions</a></li>
                         @guest
                         @if (Route::has('register'))
                         @endif
