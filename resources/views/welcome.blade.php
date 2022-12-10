@@ -1,5 +1,8 @@
 @extends('layouts.main')
 @section('main')
+<head>
+
+</head>
 <!-- Hero Section -->
 <section id="hero" class="hero">
     <div class="container position-relative">
@@ -7,9 +10,8 @@
             <div class="col-lg-6 d-flex flex-column align-items-right justify-content-center text-left caption">
                 <h2>FEJLESZTŐ</h2>
                 <h3 class="heading-secondy">Technology</h3>
-                <p>Our company exists to assist you in growing your company. We provide the best web and application
-                    solutions, project management,
-                    software updates, Google Cloud, SEO optimization, and social media marketing services.</p>
+                <p align="justify" class="intro" >Our company exists to assist you in growing your company. We provide the best web and application
+                    solutions, project management, software updates, Google Cloud, SEO optimization, and social media marketing services.</p>
                 <div class="d-flex">
                     <a href="#about" class="btn-get-started">Get Started</a>
                     <a href="https://www.youtube.com/watch?v=5KygwcZ545U&ab_channel=JonathanMickelson"
@@ -33,7 +35,7 @@
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p align="justify">Fejlesztő Software Plc is an outstanding and professional IT company established in
+                <p style=tex>Fejlesztő Software Plc is an outstanding and professional IT company established in
                     2012 in the capital city of Ethiopia.
                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further
                     technologies to the consumer.
@@ -562,8 +564,8 @@
 
                             <div class="price-body">
                                 <ul>
-                                    <li><b>Free</b> Security Service</li>
-                                    <li><b>1x</b> Security Service</li>
+                                    <li><b>1x</b> Security Service</li>                                    <li><b>Free</b> Security Service</li>
+
                                     <li><b>Unlimited</b> Security Service</li>
                                     <li><b>1x</b> Dashboard Access</li>
                                     <li><b>3x</b> Job Listings</li>
@@ -620,7 +622,7 @@
     <div id="contact" class="contact-section section">
         <div class="section-header">
             <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Send us your inquiry and we will get back to you as soon as possible.</p>
         </div>
         @include('inclusive-contact-us')
     </div>
