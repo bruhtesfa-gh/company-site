@@ -35,7 +35,7 @@
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p align="justify">Fejlesztő Software Plc is an outstanding and professional IT company established in
+                <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Fejlesztő Software Plc is an outstanding and professional IT company established in
                     2012 in the capital city of Ethiopia.
                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further
                     technologies to the consumer.
@@ -85,10 +85,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="content ps-0 ps-lg-5">
-                        <p>
-                            Our team consists of certified SEO, PPC, and social media experts with years of experience.
-                            our experts have been featured on reputable blogs across the globe, making our website
-                            company in ethiopia, one you can trust.
+                        <p align="justify">
+                        &nbsp;Fejlesztő strives to be the best. Our substantial experience and competency in providing diversified website and software development services with the latest technology
+                         standards have empowered many businesses. Our development experts specialize in customer-centric engagement models, strict quality measures, in-depth technical and
+                          domain expertise, and an understanding of different software development frameworks, programming languages, and platforms to deliver the best web software solutions.
                         </p>
                         <ul>
                             <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project</li>

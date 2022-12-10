@@ -41,10 +41,10 @@
                     <div class="contact-widget footer-widget">
                         <div class="footer-title">Contacts</div>
                         <div class="text">
-                            <p>04 Piassa Street</p>
+                            <p>04  Giorgis Rd Frindship building 3rd Floor</p>
                             <p>Bahir Dar, Ethiopia</p>
                             <p>+1 1234 56 789</p>
-                            <p>support@fejleszto-tech.com</p>
+                            <p>info@fejleszto-tech.com</p>
                         </div>
                     </div>
                 </div>
