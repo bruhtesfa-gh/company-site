@@ -382,9 +382,9 @@
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action">
         <div class="container text-center" data-aos="zoom-out">
-            <h3>Read to start something great?</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <a class="cta-btn" href="mailto:info@example.com">Conatct Us</a>
+            <h3>If you have any questions, please contact our customer service staff ?</h3>
+            <p> </p>
+            <a  class="cta-btn" href="mailto:info@example.com">Conatct Us</a>
         </div>
     </section><!-- End Call To Action Section -->
 
@@ -394,7 +394,7 @@
 
             <div class="section-header">
                 <h2>Testimonials</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Here is some review from a previous client of our service.</p>
             </div>
 
             <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
@@ -518,7 +518,7 @@
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h2>Our Team</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Here is a list of our existing staff.</p>
             </div>
             @include('inclusive-team')
         </div>
@@ -609,7 +609,7 @@
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h2>Recent Blog Posts</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>You may discover daily news and updates regarding our company's activities here.</p>
             </div>
             @include('inclusive-blog')
             <!-- End recent posts list -->
