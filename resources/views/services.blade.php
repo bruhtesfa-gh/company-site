@@ -10,8 +10,7 @@
                 <div class="row d-flex justify-content-start position-relative">
                     <div class="col-lg-6 text-left">
                         <h2>Services</h2>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua.</p>
+                        <p>Here are some of the services we provide to our customers.</p>
                         <nav>
                             <ol>
                                 <li><a href="index.html">Home</a></li>

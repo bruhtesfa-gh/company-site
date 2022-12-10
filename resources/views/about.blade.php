@@ -10,8 +10,7 @@
                 <div class="row d-flex justify-content-start position-relative">
                     <div class="col-lg-6 text-left">
                         <h2>About Us</h2>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua.</p>
+                        <p>Details about our company and why you should collaborate with us are provided further below.</p>
                         <nav>
                             <ol>
                                 <li><a href="index.html">Home</a></li>
@@ -62,7 +61,7 @@
 
                 <div class="section-header">
                     <h2>Why Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>We are here to help you</p>
                 </div>
 
                 <div class="row gy-4">
@@ -72,34 +71,21 @@
                     <div class="col-lg-6">
                         <div class="content ps-0 ps-lg-5">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et
-                                dolore
-                                magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                                dolore
-                                magna aliqua.
+                            Our team consists of certified SEO, PPC, and social media experts with years of experience.
+                             our experts have been featured on reputable blogs across the globe, making our website 
+                             company in ethiopia, one you can trust.
                             </p>
                             <ul>
-                                <li><i class="bi bi-arrow-right-square-fill"></i> Nemo enim ipsam voluptatem quia
-                                    voluptas sit
-                                    aspernatur aut odit aut fugit.</li>
-                                <li><i class="bi bi-arrow-right-square-fill"></i> Sed quia consequuntur magni dolores
-                                    eos qui ratione
-                                    voluptatem sequi nesciunt.</li>
-                                <li><i class="bi bi-arrow-right-square-fill"></i> Nemo enim ipsam voluptatem quia
-                                    voluptas sit aspernatur</li>
-                                <li><i class="bi bi-arrow-right-square-fill"></i> Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit</li>
+                                <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project</li>
+                                <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player in East Africa's technology solutions space </li>
+                                <li><i class="bi bi-arrow-right-square-fill"></i>Trust worthy</li>
+                                <li><i class="bi bi-arrow-right-square-fill"></i>Very affordable packages</li>
                                 <li><i class="bi bi-arrow-right-square-fill"></i> Sed quia consequuntur magni dolores
                                     eos qui ratione</li>
                                 <li><i class="bi bi-arrow-right-square-fill"></i> Neque porro quisquam est, qui dolorem
                                     ipsum quia dolor
                                     sit amet.</li>
-                                <li><i class="bi bi-arrow-right-square-fill"></i> Consectetur, adipisci velit, sed quia
-                                    non numquam
-                                    eius.</li>
-                                <li><i class="bi bi-arrow-right-square-fill"></i> Rempora incidunt ut labore et dolore
-                                    magnam aliquam</li>
+                                <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes & transparent communication within the team</li>
                             </ul>
                         </div>
                     </div>
@@ -113,9 +99,9 @@
         <!-- - - - - - - - -  Call To Action Section - - - - - - - -  -->
         <section id="call-to-action">
             <div class="container text-center call-to-action" data-aos="zoom-out">
-                <h3>Read to start something great?</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                <a class="cta-btn" href="mailto:info@example.com">Conatct Us</a>
+                <h3>If you have any questions, please contact our customer service staff ?</h3>
+                
+                <a class="cta-btn" href="{{route('contact-us.index')}}">Conatct Us</a>
             </div>
         </section><!-- End Call To Action Section -->
     </div>

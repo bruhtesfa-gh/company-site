@@ -10,8 +10,7 @@
                 <div class="row d-flex justify-content-start position-relative">
                     <div class="col-lg-6 text-left">
                         <h2>Projects / Portfolio</h2>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua.</p>
+                        <p>Here is a sample of past projects we have completed for our clients.</p>
                         <nav>
                             <ol>
                                 <li><a href="index.html">Home</a></li>
