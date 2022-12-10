@@ -91,19 +91,12 @@
                             company in ethiopia, one you can trust.
                         </p>
                         <ul>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on
-                                your project.
-                                sit</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player
-                                in East Africa's technology solutions space
-                                qui ratione</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> TRUST WORTHY
-                                sit aspernatur</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>MULTI INDUSTRIAL
-                            </li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player in East Africa's technology solutions space</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i> TRUST WORTHY</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>MULTI INDUSTRIAL</li>
                             <li><i class="bi bi-arrow-right-square-fill"></i> VERY AFFORDABLE PACKAGES</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes &
-                                Transparent communication within the team</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes & Transparent communication within the team</li>
 
                         </ul>
                     </div>
@@ -384,7 +377,7 @@
         <div class="container text-center" data-aos="zoom-out">
             <h3>If you have any questions, please contact our customer service staff ?</h3>
             <p> </p>
-            <a  class="cta-btn" href="mailto:info@example.com">Conatct Us</a>
+            <a  class="cta-btn" href="{{route('contact-us.index')}}">Conatct Us</a>
         </div>
     </section><!-- End Call To Action Section -->
 
