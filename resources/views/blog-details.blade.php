@@ -13,8 +13,8 @@
                             aliqua.</p>
                         <nav>
                             <ol>
-                                <li><a href="index.html">Home</a></li>
-                                <li>How to create add on google adwords?</li>
+                                <li><a href="/">Home</a></li>
+                                <li>{{$blog->subtitle}}</li>
                             </ol>
                         </nav>
                     </div>
@@ -34,107 +34,31 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h2 class="title">
-                        <a href="blog-details.html">How to create add on google adwords?</a>
+                        <a href="blog-details.html">{{$blog->subtitle}}</a>
                     </h2>
                     <div class="d-flex align-items-center details-post-data">
                         <div class="post-meta d-flex">
-                            <p class="post-author">Jobi Ret</p>
+                            <p class="post-author">{{$blog->post_man}}</p>
                             <p class="post-sperator"> - </p>
                             <p class="post-date">
-                                <time datetime="2022-01-01">Oct 5, 2022</time>
+                                <time datetime="2022-01-01">{{$blog->created_at->format('M d, Y')}}</time>
                             </p>
                         </div>
                     </div>
                     <hr />
                     <div class="col-lg-12">
-                        <img src="assets/images/whyus.jpg" class="img-fluid mb-4" alt="">
+                        <img src="{{"http://127.0.0.1:8000/" . $blog->image}}" class="img-fluid mb-4" alt="">
                     </div>
                     <p>
-                        Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                        consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione
-                        sint. Sit quaerat ipsum dolorem.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                    </p>
-                    <h3>Sub Heading</h3>
-                    <ul>
-                        <li><i class="bi bi bi-arrow-right-square-fill"></i> Nemo enim ipsam voluptatem quia voluptas
-                            sit aspernatur</li>
-                        <li><i class="bi bi bi-arrow-right-square-fill"></i> Odio et unde deleniti. Deserunt numquam
-                            exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit
-                            dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Odio et unde deleniti. Deserunt numquam exercitationem.
-                            Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis
-                            veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem. Lorem ipsum dolor
-                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
-                            odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus
-                            dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</li>
-                        <li><i class="bi bi bi-arrow-right-square-fill"></i> Neque porro quisquam est, qui dolorem ipsum
-                            quia amet Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li><i class="bi bi bi-arrow-right-square-fill"></i> Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua.</li>
-                        <li><i class="bi bi bi-arrow-right-square-fill"></i> Rempora incidunt ut labore et dolore magnam
-                            aliquam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li><i class="bi bi bi-arrow-right-square-fill"></i> Neque porro quisquam est, qui dolorem ipsum
-                            quia amet Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</li>
-                    </ul>
-
-                    <p></p>
-
-                    <p>
-                        Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                        consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione
-                        sint. Sit quaerat ipsum dolorem.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                        Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                        consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione
-                        sint. Sit quaerat ipsum dolorem.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        {{$blog->discription}}
                     </p>
 
-                    <p>
-                        Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                        consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione
-                        sint. Sit quaerat ipsum dolorem.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                    </p>
 
-                    <p>
-                        Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                        consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione
-                        sint. Sit quaerat ipsum dolorem.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                    </p>
                     <div class="d-flex justify-content-between mt-20">
-                        <button type="submit" data-text="Send Message" class="fill-btn">Previos Post</button>
-                        <button type="submit" data-text="Send Message" class="fill-btn">Next Post</button>
+                        <a href="{{ ($blog->id - 1) > 0 ? route('blogs.show' , $blog->id - 1) : "#"}}"
+                            data-text="Send Message" class="fill-btn">Previos Post</a>
+                        <a href="{{ ($blog->id + 1) <= $max_post ? route('blogs.show' , $blog->id + 1) : "#"}}"
+                            data-text="Send Message" class="fill-btn">Next Post</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -148,19 +72,13 @@
                         <hr />
                         <h3>Top Posts</h3>
                         <ul>
-                            <li><a href="#"><i class="bi bi bi-arrow-right-square-fill"></i> What is web design?</a>
+                            @foreach ($latests as $latest_blog)
+                            <li>
+                                <a href="{{route('blogs.show' , $latest_blog->id)}}">
+                                    <i class="bi bi bi-arrow-right-square-fill"></i> {{$latest_blog->subtitle}}
+                                </a>
                             </li>
-                            <li><a href="#"><i class="bi bi bi-arrow-right-square-fill"></i> What is web
-                                    developemnt?</a></li>
-                            <li><a href="#"><i class="bi bi bi-arrow-right-square-fill"></i> SEO Top 10 Tips</a></li>
-                            <li><a href="#"><i class="bi bi bi-arrow-right-square-fill"></i> Backend Developer
-                                    skills?</a></li>
-                            <li><a href="#"><i class="bi bi bi-arrow-right-square-fill"></i> UI/UX Design Skill?</a>
-                            </li>
-                            <li><a href="#"><i class="bi bi bi-arrow-right-square-fill"></i> Interview Prepartions?</a>
-                            </li>
-                            <li><a href="#"><i class="bi bi bi-arrow-right-square-fill"></i> Frond end developer
-                                    skill?</a></li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
@@ -169,7 +87,7 @@
     </section>
 
     <!-- - - - - - - - -  Recent Blog Posts Section - - - - - - - -  -->
-    <section id="recent-posts" class="recent-posts sections-bg">
+    {{-- <section id="recent-posts" class="recent-posts sections-bg">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h2>Most Recent Posts</h2>
@@ -239,7 +157,8 @@
             </div><!-- End recent posts list -->
 
         </div>
-    </section><!-- End Recent Blog Posts Section -->
+    </section> --}}
+    <!-- End Recent Blog Posts Section -->
 
 </main>
 @endsection

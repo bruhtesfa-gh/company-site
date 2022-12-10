@@ -47,7 +47,7 @@ class BlogController extends Controller
                     "image" => 'required|mimes:jpeg,png,jpg|max:10094',
                     "subtitle" => 'required|string|max:255',
                     "discription" => 'required',
-                    'link' => 'required|url',
+                    'link' => 'nullable|url',
                 ]);
                 $path = $request->image->store('images');
 
@@ -77,7 +77,9 @@ class BlogController extends Controller
      */
     public function show(Blog $blog)
     {
-        //
+        $max_post = Blog::all()->last()->id;
+        $latests = Blog::latest()->take(5)->get();
+        return view('blog-details', compact('blog', 'max_post', 'latests'));
     }
 
     /**

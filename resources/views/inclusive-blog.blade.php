@@ -23,7 +23,7 @@
     @endforeach
     <!-- End post list item -->
 
-    <div class="col-lg-4">
+    {{-- <div class="col-lg-4">
         <article>
             <div class="post-img">
                 <img src="assets/images/blog/blog-2.jpg" alt="" class="img-fluid">
@@ -122,6 +122,6 @@
                 </div>
             </div>
         </article>
-    </div><!-- End post list item -->
+    </div><!-- End post list item --> --}}
 
 </div>

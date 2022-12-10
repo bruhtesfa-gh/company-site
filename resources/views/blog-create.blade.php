@@ -32,7 +32,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group form-input-box mb-2">
                                             <input type="text" class="form-control" id="link" name="link"
-                                                placeholder="Link*" required="required" data-error="link is required.">
+                                                placeholder="Link" data-error="link is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>

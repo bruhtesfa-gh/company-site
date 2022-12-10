@@ -18,9 +18,9 @@ class CreateBlogsTable extends Migration
             $table->string('image');
             $table->string('title');
             $table->string('subtitle');
-            $table->string('discription');
+            $table->text('discription');
             $table->string('post_man');
-            $table->string('link');
+            $table->string('link')->nullable();
             $table->timestamps();
         });
     }
