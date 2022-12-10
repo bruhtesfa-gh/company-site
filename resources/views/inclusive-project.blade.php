@@ -28,7 +28,8 @@
                                         <li><strong>Category</strong> <span>{{$pro->category}}</span></li>
                                         <li><strong>Client</strong> <span>{{$pro->client}}</span></li>
                                         <li><strong>Project date</strong> <span>{{$pro->end_date}}</span></li>
-                                        <li><strong>Project URL</strong> <a href="{{$pro->link}}">{{$pro->link}}</a>
+                                        <li><strong>Project URL</strong> <a
+                                                href="{{$pro->link == null ? '#' : $pro->link}}">{{$pro->link == null ? 'Private Project' : $pro->link}}</a>
                                         </li>
                                     </ul>
                                 </div>

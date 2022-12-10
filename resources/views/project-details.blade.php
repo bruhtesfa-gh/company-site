@@ -78,7 +78,10 @@
                                 <li><strong>Category</strong> <span>{{$project->category}}</span></li>
                                 <li><strong>Client</strong> <span>{{$project->client}}</span></li>
                                 <li><strong>Project date</strong> <span>{{$project->end_date}}</span></li>
-                                <li><strong>Project URL</strong> <a href="{{$project->link}}">{{$project->link}}</a>
+                                <li><strong>Project URL</strong>
+                                    <a href="{{$project->link == null ? '#' : $project->link}}">
+                                        {{$project->link == null ? 'Private Project' : $project->link}}
+                                    </a>
                                 </li>
                                 {{-- <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li> --}}
                             </ul>
