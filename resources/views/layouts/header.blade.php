@@ -19,7 +19,7 @@
                 <li><a href="{{route('about-us.index')}}">About</a></li>
                 <!-- <li><a href="packages.html">Pricing</a></li> -->
                 <li><a href="{{route('blogs.index')}}">Blogs</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="{{route('testimonials.index')}}">Testimonials</a></li>
                 <li class="dropdown"><a href="#"><span>All Pages</span> <i
                             class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
