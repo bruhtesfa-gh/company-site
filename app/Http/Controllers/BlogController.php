@@ -45,6 +45,7 @@ class BlogController extends Controller
                 $validated = $request->validate([
                     'title' => 'required|string|max:255',
                     "image" => 'required|mimes:jpeg,png,jpg|max:10094',
+                    "subtitle" => 'required|string|max:255',
                     "discription" => 'required',
                     'link' => 'required|url',
                 ]);
@@ -52,6 +53,7 @@ class BlogController extends Controller
 
                 $blog = \App\Models\Blog::create([
                     'title' => $validated['title'],
+                    'subtitle' => $validated['subtitle'],
                     'link' => $validated['link'],
                     "image" => $path,
                     "discription" => $validated['discription'],

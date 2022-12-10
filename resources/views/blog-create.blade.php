@@ -23,6 +23,14 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group form-input-box mb-2">
+                                            <input type="text" class="form-control" id="subtitle" name="subtitle"
+                                                placeholder="Subtitle*" required="required"
+                                                data-error="subtitle is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group form-input-box mb-2">
                                             <input type="text" class="form-control" id="link" name="link"
                                                 placeholder="Link*" required="required" data-error="link is required.">
                                             <div class="help-block with-errors"></div>

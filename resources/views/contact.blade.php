@@ -13,7 +13,7 @@
                             aliqua.</p>
                         <nav>
                             <ol>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li>Contact</li>
                             </ol>
                         </nav>
@@ -43,7 +43,6 @@
             </div>
         </div>
     </div>
-
 </main>
 @endsection
 

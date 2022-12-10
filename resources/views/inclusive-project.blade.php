@@ -36,19 +36,20 @@
                                 <div class="testimonial-item">
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        {{$pro->discription}}
+                                        {{$item->testimony}}
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                     <div>
-                                        <img src="assets/images/testimonials/testimonial-2.jpg" class="testimonial-img"
-                                            alt="">
-                                        <h3>Jhone Wilsson</h3>
-                                        <h4>Graphic Designer</h4>
+                                        <img src="{{"http://127.0.0.1:8000/" . $item->image}}" class="testimonial-img"
+                                            alt="testimony image">
+                                        <h3>{{$item->name}}</h3>
+                                        <h4>{{$item->career}}</h4>
                                     </div>
                                 </div>
                                 @endforeach
 
-                                <div class="project-btn"><a href="project-details.html" class="fill-btn">View
+                                <div class="project-btn"><a href="{{route('projects.show' , $pro->id)}}"
+                                        class="fill-btn">View
                                         Project</a></div>
                             </div>
                         </div>

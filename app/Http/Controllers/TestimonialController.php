@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use App\Models\Testimonial;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class TestimonialController extends Controller
 {
@@ -14,7 +17,8 @@ class TestimonialController extends Controller
      */
     public function index()
     {
-        //
+        $testimonials = Testimonial::all();
+        return view('testimonials', compact('testimonials'));
     }
 
     /**
@@ -24,7 +28,12 @@ class TestimonialController extends Controller
      */
     public function create()
     {
-        //
+        if (Auth::user()) {
+            $projects = Project::all();
+            return view('teastimonial-create', compact('projects'));
+        }
+
+        return redirect()->back();
     }
 
     /**
@@ -35,7 +44,34 @@ class TestimonialController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if ($request->hasFile('image')) {
+            if ($request->file('image')->isValid()) {
+                $validated = $request->validate([
+                    "project_id" => 'required|numeric',
+                    "image" => 'required|mimes:jpeg,png,jpg|max:10094',
+                    "career" => 'required|string|max:255',
+                    "name" => 'required|string|max:255',
+                    "rating" => 'required|integer|min:0|max:5',
+                    "testimony" => 'required',
+                ]);
+                $path = $request->image->store('images');
+
+                $testimonial = \App\Models\Testimonial::create([
+                    'project_id' => $validated['project_id'],
+                    'career' => $validated['career'],
+                    'name' => $validated['name'],
+                    'rating' => $validated['rating'],
+                    "image" => $path,
+                    "testimony" => $validated['testimony'],
+                ]);
+
+                if ($testimonial) {
+                    return redirect(route('testimonials.index'));
+                } else {
+                    return redirect()->back();
+                }
+            }
+        }
     }
 
     /**
