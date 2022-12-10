@@ -7,7 +7,7 @@
             </div>
             <p class="post-category">{{$blog->title}}</p>
             <h2 class="title">
-                <a href="blogs-details.html">{{$blog->discription}}</a>
+                <a href="{{route('blogs.show' , $blog->id)}}">{{$blog->subtitle}}</a>
             </h2>
             <div class="d-flex align-items-center">
                 <div class="post-meta">

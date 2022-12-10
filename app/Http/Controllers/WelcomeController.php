@@ -7,6 +7,7 @@ use App\Models\Welcome;
 use Illuminate\Http\Request;
 use App\Models\Project;
 use App\Models\Team;
+use App\Models\Testimonial;
 
 class WelcomeController extends Controller
 {
@@ -20,7 +21,8 @@ class WelcomeController extends Controller
         $projects = Project::all()->groupBy('category');
         $blogs = Blog::all();
         $teams = Team::all();
-        return view('welcome', compact('projects', 'blogs', 'teams'));
+        $testimonials = Testimonial::all();
+        return view('welcome', compact('projects', 'blogs', 'teams', 'testimonials'));
     }
 
     /**
