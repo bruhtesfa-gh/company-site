@@ -6,7 +6,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="logo-widget footer-widget">
                         <a href="/" class="logo d-flex align-items-center">
-                            <h1><span>Fe</span>jlesztő<span>.</span></h1>
+                            <h1 style="color: rgb(213, 230, 20);"><span style="color: dodgerblue;">Fe</span>jles<span
+                                    style="color: dodgerblue;">ztő.</span></h1>
                         </a>
                         <div class="text">
                             <p>

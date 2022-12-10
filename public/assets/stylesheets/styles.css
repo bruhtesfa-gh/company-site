@@ -931,7 +931,7 @@ section {
   content: '';
   position: absolute;
   width: 300px;
-  background: #10bab9;
+  /* background: #10bab9; */
   display: block;
   left: 40px;
   top: -30px;
@@ -951,7 +951,7 @@ section {
   bottom: 3px;
   height: 300px;
   z-index: -1;
-  border: 3px solid #eb4680;
+  /* border: 3px solid #eb4680; */
   font-weight: bold;
 }
 
@@ -1148,7 +1148,7 @@ section {
   background-color: #eb4680;
   display: inline-block;
   padding: 5px 0 5px 10px;
-  border-radius: inherit;
+  border-radius: 2px 15px 15px 2px;
   animation: load 2s 0s;
   -webkit-animation: load 2s 0s;
   -moz-animation: load 2s 0s;
