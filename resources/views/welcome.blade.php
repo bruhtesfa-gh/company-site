@@ -35,7 +35,7 @@
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p style=tex>Fejlesztő Software Plc is an outstanding and professional IT company established in
+                <p align="justify">Fejlesztő Software Plc is an outstanding and professional IT company established in
                     2012 in the capital city of Ethiopia.
                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further
                     technologies to the consumer.
@@ -86,17 +86,17 @@
                 <div class="col-lg-6">
                     <div class="content ps-0 ps-lg-5">
                         <p>
-                            Our team consists of certified SEO, PPC, and Social Media experts with years of experience.
-                            Our experts have been featured on reputable blogs across the globe, making our website
+                            Our team consists of certified SEO, PPC, and social media experts with years of experience.
+                            our experts have been featured on reputable blogs across the globe, making our website
                             company in ethiopia, one you can trust.
                         </p>
                         <ul>
                             <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project</li>
                             <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player in East Africa's technology solutions space</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> TRUST WORTHY</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>MULTI INDUSTRIAL</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i> VERY AFFORDABLE PACKAGES</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes & Transparent communication within the team</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i> Trust worthy</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Multi Industrial</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i> Very affordable packages</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes & transparent communication within the team</li>
 
                         </ul>
                     </div>
