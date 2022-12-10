@@ -5,19 +5,22 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="logo-widget footer-widget">
-                        <a href="index.html" class="logo d-flex align-items-center">
+                        <a href="/" class="logo d-flex align-items-center">
                             <h1><span>Fe</span>jlesztő<span>.</span></h1>
                         </a>
                         <div class="text">
                             <p>
-                                Fejlesztő technology has been founded in June 201 as an investment company in Ethiopia. 
-                                It is born of the desire of its founders to bring, within the Ethiopian market, the very best in
-                                 latest technologies in the area of design and development of computer software.</p>
+                                Fejlesztő technology has been founded in June 201 as an investment company in Ethiopia.
+                                It is born of the desire of its founders to bring, within the Ethiopian market, the very
+                                best in
+                                latest technologies in the area of design and development of computer software.</p>
                         </div>
                         <ul class="footer-social">
-                            <li><a href="https://www.facebook.com/profile.php?id=100075711680210"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/yosef-nakachew-4225b4191/"><i class="fa fa-linkedin"></i></a></li>
-                           
+                            <li><a href="https://www.facebook.com/profile.php?id=100075711680210"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/yosef-nakachew-4225b4191/"><i
+                                        class="fa fa-linkedin"></i></a></li>
+
                         </ul>
                     </div>
                 </div>

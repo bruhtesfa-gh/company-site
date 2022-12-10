@@ -188,7 +188,7 @@ section {
 .breadcrumbs .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #02336e;
+  color: dodgerblue;
   font-family: var(--font-secondary);
 }
 
@@ -441,7 +441,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #02336e;
+  color: dodgerblue;
 }
 
 .sticked-header-offset {
@@ -486,7 +486,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 400;
-    color: #02336e;
+    color: dodgerblue;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -1946,7 +1946,7 @@ section {
 }
 
 .hero .heading-secondy {
-  color: #02336e;
+  color: dodgerblue;
   font-size: 63px;
   line-height: 60px;
   font-weight: 300;
@@ -1972,7 +1972,7 @@ section {
   font-size: 108px;
   font-weight: 900;
   margin-bottom: 0px;
-  color: #02336e;
+  color: dodgerblue;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
 }
@@ -2038,7 +2038,7 @@ section {
     font-size: 60px;
     font-weight: 900;
     margin-bottom: 0px;
-    color: #02336e;
+    color: dodgerblue;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
   }
@@ -3667,7 +3667,7 @@ section {
 
 .the-main-service .item {
   background: #ffffff none repeat scroll 0 0;
-  border-left: 2px solid #02336e;
+  border-left: 2px solid dodgerblue;
   -moz-box-shadow: 0 0 10px #e4e4e4;
   /* -webkit-box-shadow: 0 0 10px #e4e4e4; */
   -o-box-shadow: 0 0 10px #e4e4e4;
@@ -3686,7 +3686,7 @@ section {
 }
 
 .the-main-service.text-center .item i {
-  /* background: #02336e none repeat scroll 0 0; */
+  /* background: dodgerblue none repeat scroll 0 0; */
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -3786,7 +3786,7 @@ section {
 }
 
 .the-main-service .item::after {
-  background: #02336e none repeat scroll 0 0;
+  background: dodgerblue none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: -100%;
