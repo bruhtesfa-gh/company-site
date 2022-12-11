@@ -61,7 +61,7 @@
                         <div class="single-contact-info-box">
                             <div class="contact-info">
                                 <h6>Address:</h6>
-                                <p>Piassa Street</p>
+                                <p>04 Giorgis Rd Frindship building 3rd Floor</p>
                                 <p> Bahir Dar, Ethiopia</p>
                             </div>
                         </div>
@@ -79,8 +79,8 @@
                         <div class="single-contact-info-box">
                             <div class="contact-info">
                                 <h6>Email:</h6>
-                                <p>noreply@fejleszto-tech.com</p>
-                                <p>email@example.com</p>
+                                <p>info@fejleszto-tech.com</p>
+                               
                             </div>
                         </div>
                     </div>
