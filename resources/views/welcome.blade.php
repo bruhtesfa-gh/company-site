@@ -413,7 +413,7 @@
                         <div class="testimonial-wrap">
                             <div class="testimonial-item">
                                 <div class="d-flex align-items-center info-box">
-                                    <img src="{{"http://127.0.0.1:8000/" . $item->image}}"
+                                    <img src="{{"http://fejleszto-tech.com/" . $item->image}}"
                                         class="testimonial-img flex-shrink-0" alt="">
                                     <div>
                                         <h3>{{$item->name}}</h3>

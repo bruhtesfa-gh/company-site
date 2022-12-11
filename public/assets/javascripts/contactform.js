@@ -9,7 +9,7 @@ $(function () {
     $('#ajax-contact').validator();
     $('#ajax-contact').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "http://127.0.0.1:8000/send-message";
+            var url = "http://fejleszto-tech.com/send-message";
             $.ajax({
                 type: "POST",
                 url: url,

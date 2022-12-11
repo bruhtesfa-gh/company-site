@@ -3,7 +3,7 @@
     <div class="col-lg-4">
         <article>
             <div class="post-img">
-                <img src="{{"http://127.0.0.1:8000/" . $blog->image}}" alt="blog image" class="img-fluid">
+                <img src="{{"http://fejleszto-tech.com/" . $blog->image}}" alt="blog image" class="img-fluid">
             </div>
             <p class="post-category">{{$blog->title}}</p>
             <h2 class="title">
