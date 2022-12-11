@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('main')
+
 <head>
 
 </head>
@@ -10,8 +11,10 @@
             <div class="col-lg-6 d-flex flex-column align-items-right justify-content-center text-left caption">
                 <h2>FEJLESZTŐ</h2>
                 <h3 class="heading-secondy">Technology</h3>
-                <p align="justify" >Our company exists to assist you in growing your company. We provide the best web and application
-                    solutions, project management, software updates, Google Cloud, SEO optimization, and social media marketing services.</p>
+                <p align="justify">Our company exists to assist you in growing your company. We provide the best web and
+                    application
+                    solutions, project management, software updates, Google Cloud, SEO optimization, and social media
+                    marketing services.</p>
                 <div class="d-flex">
                     <a href="#about" class="btn-get-started">Get Started</a>
                     <a href="https://www.youtube.com/watch?v=5KygwcZ545U&ab_channel=JonathanMickelson"
@@ -35,7 +38,8 @@
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Fejlesztő Software Plc is an outstanding and professional IT company established in
+                <p align="justify" style="word-break: break-all;">&nbsp;&nbsp;&nbsp;&nbsp;Fejlesztő Software Plc is an
+                    outstanding and professional IT company established in
                     2012 in the capital city of Ethiopia.
                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further
                     technologies to the consumer.
@@ -86,17 +90,23 @@
                 <div class="col-lg-6">
                     <div class="content ps-0 ps-lg-5">
                         <p align="justify">
-                        &nbsp;Fejlesztő strives to be the best. Our substantial experience and competency in providing diversified website and software development services with the latest technology
-                         standards have empowered many businesses. Our development experts specialize in customer-centric engagement models, strict quality measures, in-depth technical and
-                          domain expertise, and an understanding of different software development frameworks, programming languages, and platforms to deliver the best web software solutions.
+                            &nbsp;Fejlesztő strives to be the best. Our substantial experience and competency in
+                            providing diversified website and software development services with the latest technology
+                            standards have empowered many businesses. Our development experts specialize in
+                            customer-centric engagement models, strict quality measures, in-depth technical and
+                            domain expertise, and an understanding of different software development frameworks,
+                            programming languages, and platforms to deliver the best web software solutions.
                         </p>
                         <ul>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on your project</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player in East Africa's technology solutions space</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Experts with extensive experience work on
+                                your project</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Fejlesztő is a pioneer and a leading player
+                                in East Africa's technology solutions space</li>
                             <li><i class="bi bi-arrow-right-square-fill"></i> Trust worthy</li>
                             <li><i class="bi bi-arrow-right-square-fill"></i>Multi Industrial</li>
                             <li><i class="bi bi-arrow-right-square-fill"></i> Very affordable packages</li>
-                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes & transparent communication within the team</li>
+                            <li><i class="bi bi-arrow-right-square-fill"></i>Clearly set processes & transparent
+                                communication within the team</li>
 
                         </ul>
                     </div>
@@ -377,7 +387,7 @@
         <div class="container text-center" data-aos="zoom-out">
             <h3>If you have any questions, please contact our customer service staff ?</h3>
             <p> </p>
-            <a  class="cta-btn" href="{{route('contact-us.index')}}">Conatct Us</a>
+            <a class="cta-btn" href="{{route('contact-us.index')}}">Conatct Us</a>
         </div>
     </section><!-- End Call To Action Section -->
 
