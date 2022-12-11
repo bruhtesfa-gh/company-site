@@ -10,8 +10,8 @@
                                     style="color: dodgerblue;">ztő.</span></h1>
                         </a>
                         <div class="text">
-                            <p>
-                                Fejlesztő technology has been founded in June 201 as an investment company in Ethiopia.
+                            <p align = "justify">
+                                Fejlesztő technology has been founded in June 2017 as an investment company in Ethiopia.
                                 It is born of the desire of its founders to bring, within the Ethiopian market, the very
                                 best in
                                 latest technologies in the area of design and development of computer software.</p>

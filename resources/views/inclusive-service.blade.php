@@ -3,11 +3,12 @@
     <div class="container">
         <div class="row our-offer-items less-carousel">
             <!-- Main Service -->
+            <h1><b>Services</b></h1>
             <div class="col-md-4 col-sm-12 equal-height">
                 <div class="item">
                     <i class="fa fa-pencil"></i>
                     <h4>Web Design</h4>
-                    <p align="justify">
+                    <p align="justify" class="ptag">
                         In today's competitive internet market, website design services are crucial.
                         Fejlesztő focuses on The visual first impression your website produces will
                         have a significant impact on a pov client's decision to click away or
