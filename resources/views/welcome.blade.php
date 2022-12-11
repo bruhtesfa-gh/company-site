@@ -11,7 +11,8 @@
             <div class="col-lg-6 d-flex flex-column align-items-right justify-content-center text-left caption">
                 <h2>FEJLESZTŐ</h2>
                 <h3 class="heading-secondy">Technology</h3>
-                <p align="justify">Our company exists to assist you in growing your company. We provide the best web and
+                <p align="justify" style="word-break: break-all;">Our company exists to assist you in growing your
+                    company. We provide the best web and
                     application
                     solutions, project management, software updates, Google Cloud, SEO optimization, and social media
                     marketing services.</p>
@@ -38,7 +39,7 @@
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p align="justify" style="word-break: break-all;">&nbsp;&nbsp;&nbsp;&nbsp;Fejlesztő Software Plc is an
+                <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Fejlesztő Software Plc is an
                     outstanding and professional IT company established in
                     2012 in the capital city of Ethiopia.
                     Early in 2016 re-established and registered as Fejlesztő Technology Plc in order to provide further
