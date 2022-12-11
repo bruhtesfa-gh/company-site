@@ -41,19 +41,19 @@
                                 <div class="swiper-wrapper align-items-center">
 
                                     <div class="swiper-slide">
-                                        <img src="{{"http://127.0.0.1:8000/" . $project->image1}}" alt="">
+                                        <img src="{{"http://fejleszto-tech.com/" . $project->image1}}" alt="">
                                     </div>
 
                                     <div class="swiper-slide">
-                                        <img src="{{"http://127.0.0.1:8000/" . $project->image2}}" alt="">
+                                        <img src="{{"http://fejleszto-tech.com/" . $project->image2}}" alt="">
                                     </div>
 
                                     <div class="swiper-slide">
-                                        <img src="{{"http://127.0.0.1:8000/" . $project->image3}}" alt="">
+                                        <img src="{{"http://fejleszto-tech.com/" . $project->image3}}" alt="">
                                     </div>
 
                                     <div class="swiper-slide">
-                                        <img src="{{"http://127.0.0.1:8000/" . $project->image4}}" alt="">
+                                        <img src="{{"http://fejleszto-tech.com/" . $project->image4}}" alt="">
                                     </div>
 
                                 </div>
@@ -95,7 +95,7 @@
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                                 <div>
-                                    <img src="{{"http://127.0.0.1:8000/" . $item->image}}" class="testimonial-img"
+                                    <img src="{{"http://fejleszto-tech.com/" . $item->image}}" class="testimonial-img"
                                         alt="">
                                     <h3>{{$item->name}}</h3>
                                     <h4>{{$item->career}}</h4>

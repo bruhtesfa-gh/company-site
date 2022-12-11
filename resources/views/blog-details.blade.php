@@ -47,7 +47,7 @@
                     </div>
                     <hr />
                     <div class="col-lg-12">
-                        <img src="{{"http://127.0.0.1:8000/" . $blog->image}}" class="img-fluid mb-4" alt="">
+                        <img src="{{"http://fejleszto-tech.com/" . $blog->image}}" class="img-fluid mb-4" alt="">
                     </div>
                     <p>
                         {{$blog->discription}}
