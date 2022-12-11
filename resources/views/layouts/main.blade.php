@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Eusoft- It Solutions & Software Solution Website Template</title>
-    <meta content="" name="Eusoft- It Solutions & Software Solution Website Template">
+    <title>Fejlesztő Technologies</title>
+    <meta content="" name="Fejlesztő Technologies">
     <meta content="" name="ZRTHEMES">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicons -->
