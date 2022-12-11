@@ -13,13 +13,9 @@
                         <img src="assets/images/logo.png" style="max-height: 90px; padding-bottom: 10px;"
                             alt=""></span>EJLESZTŐ
                 </h2> --}}
-                <img src="assets/logo/fejleszto-capp-trasparent.png" alt="">
+                <img src="{{asset("assets/logo/fejleszto-capp-trasparent.png")}}" alt="">
                 <h3 class="heading-secondy">Technology</h3>
-<<<<<<< HEAD
                 <p align="justify">Our company exists to assist you in growing your
-=======
-                <p  style="word-break: break-all;">Our company exists to assist you in growing your
->>>>>>> 6ac04d8432fc3a7231960a3495503787541288d9
                     company. We provide the best web and
                     application
                     solutions, project management, software updates, Google Cloud, SEO optimization, and social media

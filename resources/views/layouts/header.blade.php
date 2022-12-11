@@ -4,7 +4,7 @@
         <a href="/" class="logo d-flex align-items-center">
             {{-- <h1 style="color: rgb(213, 230, 20);"><span><img src="assets/logo/logo.png"
                         alt=""></span><span>e</span>jles<span>ztő.</span></h1> --}}
-            <img src="assets/logo/fejleszto-small-transparent.png" alt="home">
+            <img src="{{asset("assets/logo/fejleszto-small-transparent.png")}}" alt="home">
         </a>
         <nav id="navbar" class="navbar">
             <ul>
