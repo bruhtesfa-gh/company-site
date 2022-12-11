@@ -2,7 +2,7 @@
 <header id="header" class="single-page-header header d-flex align-items-center">
     <div class="container container-xl d-flex align-items-center justify-content-between">
         <a href="/" class="logo d-flex align-items-center">
-            <h1 style="color: rgb(213, 230, 20);"><span>Fe</span>jles<span>ztő.</span></h1>
+            <h1 style="color: rgb(213, 230, 20);"><span>Fe</span>jleszt<span>ő.</span></h1>
         </a>
         <nav id="navbar" class="navbar">
             <ul>
