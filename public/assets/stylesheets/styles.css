@@ -3860,3 +3860,6 @@ section {
   height: 21.5em;
   object-fit: cover;
 }
+.ptag {
+  word-break: break-all !important ; 
+}
